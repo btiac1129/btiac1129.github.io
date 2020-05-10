@@ -58,3 +58,5 @@ plainwhite:
 #    twitter: thelehhman
     github: btiac1129
 #    linkedIn: in/thelehhman # format: locale/username
+
+show_excerpts: true
