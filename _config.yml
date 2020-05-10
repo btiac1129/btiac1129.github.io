@@ -60,3 +60,10 @@ plainwhite:
 #    linkedIn: in/thelehhman # format: locale/username
 
 show_excerpts: true
+
+plainwhite:
+  navigation:
+    - title: POSTS
+      url: "/posts"
+    - title: RESUME
+      url: "/resume"
