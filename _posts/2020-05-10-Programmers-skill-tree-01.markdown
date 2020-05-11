@@ -5,6 +5,8 @@ date:   2020-05-11 09:33:36
 categories: Python Programmers Coding-test
 ---
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 프로그래머스 스킬 체크 레벨 1. 두 문제를 30분 안에 풀고 제출해야했다.  
 
 첫번째 문제. 
