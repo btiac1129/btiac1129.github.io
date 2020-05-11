@@ -1,6 +1,6 @@
 remote_theme: thelehhman/plainwhite-jekyll
 
-title: Your awesome
+title: There is no leap forward.
 author: btiac1129
 email: btiac1129@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
@@ -61,9 +61,9 @@ plainwhite:
 
 show_excerpts: true
 
-plainwhite:
-  navigation:
-    - title: POSTS
-      url: "/posts"
-    - title: RESUME
-      url: "/resume"
+# plainwhite:
+#   navigation:
+#     - title: POSTS
+#       url: "/posts"
+#     - title: RESUME
+#       url: "/resume"
