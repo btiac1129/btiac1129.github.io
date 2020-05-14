@@ -67,3 +67,10 @@ show_excerpts: true
 #       url: "/posts"
 #     - title: RESUME
 #       url: "/resume"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
