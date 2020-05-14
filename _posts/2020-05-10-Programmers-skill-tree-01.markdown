@@ -3,6 +3,7 @@ layout: post
 title:  "프로그래머스 스킬 체크 level 1"
 date:   2020-05-11 09:33:36 
 categories: Python Programmers Coding-test
+use_math: true
 ---
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
@@ -39,9 +40,6 @@ G(A, B) == G(B, R) 이다.
 
 b와 a-bq가 서로소인가?
 (귀류법 : b와 a-bq는 서로소가 '아닌' 것을 증명해볼 때 모순이 나오는 지 보자)
-
-
-
 $$
 
 ```python
