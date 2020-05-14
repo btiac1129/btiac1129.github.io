@@ -26,7 +26,7 @@ def solution(n, m):
 ```
 
 ★ 유클리드 호제법 증명
-
+$$
 A = Ga, B = Gb
 
 a와 b가 서로소이면 G는 최대공약수(G.C.D)이다.
@@ -44,7 +44,7 @@ G(B, R)에 대해서
 이때 b와 a-bq가 서로소인가?
 
 (귀류법 : b와 a-bq는 서로소가 '아닌' 것을 증명해볼 때 모순이 나오는 지 보자)
-
+$$
 
 ```python
 def solution(d, budget):
