@@ -26,8 +26,8 @@ def solution(n, m):
 ```
 
 ★ 유클리드 호제법 증명
-$$
-A = Ga, B = Gb
+
+$A = Ga, B = Gb$
 
 a와 b가 서로소이면 G는 최대공약수(G.C.D)이다.
 
