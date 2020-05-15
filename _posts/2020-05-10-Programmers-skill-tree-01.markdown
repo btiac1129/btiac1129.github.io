@@ -29,11 +29,11 @@ def solution(n, m):
 
 $A = Ga, B = Gb$
 
-a와 b가 서로소이면 G는 최대공약수(G.C.D)이다.
+$a와 b가 서로소이면 G는 최대공약수(G.C.D)이다.$
 
-A = Bq + R 일 때, 
+$A = Bq + R 일 때,$ 
 
-G(A, B) = G(B, R) 이다. 
+$G(A, B) = G(B, R) 이다.$ 
 
 R = A - Bq = Ga - Gbq = G(a - bq)
 
