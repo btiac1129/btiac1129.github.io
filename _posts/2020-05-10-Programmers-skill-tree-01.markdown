@@ -29,15 +29,15 @@ def solution(n, m):
 
 $A = Ga, B = Gb$
 
-$a와 b가 서로소이면 G는 최대공약수(G.C.D)이다.$
+a와 b가 서로소이면 G는 최대공약수(G.C.D)이다.
 
-$A = Bq + R 일 때,$ 
+$A = Bq + R$ 일 때,
 
-$G(A, B) = G(B, R) 이다.$ 
+$G(A, B) = G(B, R)$ 이다.
 
-R = A - Bq = Ga - Gbq = G(a - bq)
+$R = A - Bq = Ga - Gbq = G(a - bq)$
 
-∴ A = Ga, B = Gb, R = G(a-bq) 이다.
+$∴ A = Ga, B = Gb, R = G(a-bq)$ 이다.
 
 G(B, R)의 최대공약수가 G이려면
 
@@ -47,12 +47,12 @@ G(B, R)의 최대공약수가 G이려면
 
 귀류법 : b와 a-bq가 서로소가 아니라면 공약수 m이 존재한다. (k와 k'는 서로소)
 
-b = mk
-a-bq = mk'
-a = mk' + bq
-  = mk' + mkq
+$b = mk$
+$a-bq = mk'$
+$a = mk' + bq$
+$  = mk' + mkq$
 
-a = m(k' + kq), b = mk 이므로 
+$a = m(k' + kq), b = mk$ 이므로 
 
 a와 b가 공약수를 갖게 된다.
 
@@ -60,12 +60,12 @@ i) m = 1이 아닌 2 이상일 때, a와 b가 2 이상인 공약수를 갖게 �
 
 ii) m = 1일 때
 
-a = k' + kq, b = k
+$a = k' + kq, b = k$
 
-∴ a = k' + bq -> a-bq = k', b = k
+$∴ a = k' + bq -> a-bq = k', b = k$
 
 k와 k'는 서로소이므로, ∴ a-bq와 b는 서로소이다. (증명 완료)
-$$
+
 
 Q2. 두 번째 문제 
 
