@@ -6,6 +6,8 @@ categories: Python Programmers Coding-test
 use_math: true
 ---
 
+### Q. 완주하지 못한 선수
+
 * completion의 길이는 participant의 길이보다 1 작습니다.
 
 * 참가자 중에는 동명이인이 있을 수 있습니다.
@@ -19,5 +21,7 @@ def solution(p, c):
     ans = collections.Counter(p) - collections.Counter(c)
     return list(ans)[0]
 ```
+
+### collections.Counter
 
 
