@@ -11,18 +11,19 @@ use_math: true
 * [완주하지 못한 선수](#problem-description)
 * [다른 사람들의 풀이](#problem-solution)
 * [새로 배운 내용](#deep)
+
 ***
 
 ## 완주하지 못한 선수 <a id="problem-description"></a>
 
-#### 문제 설명
+### 문제 설명
 수많은 마라톤 선수들이 마라톤에 참여하였습니다. 단 한 명의 선수를 제외하고는 모든 선수가 마라톤을 완주하였습니다. 
 
 **마라톤에 참여한 선수들의 이름이 담긴 배열 _participant_**
 와 **완주한 선수들의 이름이 담긴 배열 _completion_**
 이 주어질 때, **완주하지 못한 선수의 이름**을 return 하도록 solution 함수를 작성해주세요.  
 
-#### 제한 사항
+### 제한 사항
 
 * 마라톤 경기에 참여한 선수의 수는 1명 이상 100,000명 이하입니다.
 
@@ -35,19 +36,19 @@ __participant__
 
 * 참가자 중에는 동명이인이 있을 수 있습니다.
 
-#### 입출력 예
+### 입출력 예
 
 | participant | completion | return |
-| :---------: | :--------: | :----: |
-| /["leo", "kiki", "eden"/] | /["eden", "kiki"/] | "leo" |
-| /["marina", "josipa", "nikola", "vinko", "fillipa"/] | /["josipa", "filipa", "marina", "nikola"] | "vinko" |
+| :---------- | :--------- | :----- |
+| ["leo", "kiki", "eden"] | ["eden", "kiki"] | "leo" |
+| ["marina", "josipa", "nikola", "vinko", "fillipa"] | ["josipa", "filipa", "marina", "nikola"] | "vinko" |
 | ["mislav", "stanko", "mislav", "ana"] | ["stanko", "ana", "mislav"] | "mislav" |
 
 ***
 
 ## 다른 사람들의 풀이 <a id="problem-solution"></a>
 
-#### 풀이【1】
+### 풀이【1】
 ```python
 import collections
 
