@@ -23,6 +23,7 @@ use_math: true
 와 **완주한 선수들의 이름이 담긴 배열 _completion_**
 이 주어질 때, **완주하지 못한 선수의 이름**을 return 하도록 solution 함수를 작성해주세요.  
 
+
 ### 제한 사항
 
 * 마라톤 경기에 참여한 선수의 수는 1명 이상 100,000명 이하입니다.
@@ -35,6 +36,7 @@ __participant__
 * 참가자의 이름은 1개 이상 20개 이하의 알파벳 소문자로 이루어져 있습니다. 
 
 * 참가자 중에는 동명이인이 있을 수 있습니다.
+
 
 ### 입출력 예
 
@@ -61,6 +63,26 @@ def solution(p, c):
 
 ## 새로 배운 내용 <a id="deep"></a>
 
-### collections.Counter
+### 파이썬 컨테이너 타입(Container type)
+
+Container 타입은 특정 속성이 구현되어 있는 클래스를 이야기합니다. 객체를 만드는데 직집적으로 관여하지 않지만, 특정 기능이 구현되어 있는 객체를 Container 객체라고 부를 수 있게 됩니다. 어떤 기능이 구현되어 있어야 하는 지는 조금 어려운 이야기입니다. 다음과 같이 간단하게 Container 객체가 맞는지 확인할 수 있습니다.
+
+```python repl
+>>> from collections import Container
+>>> issubclass(list, Container)
+True
+>>> issubclass(tuple, Container)
+True
+>>> issubclass(dict, Container)
+True
+>>> issubclass(set, Container)
+True
+>>> issubclass(str, Container)
+True
+```
+
+## [python] collections 모듈
+
+
 
 
