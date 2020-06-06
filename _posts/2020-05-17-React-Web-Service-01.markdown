@@ -6,6 +6,8 @@ categories: React Programmers
 use_math: true
 ---
 
+**_Description_ : 【리액트로 웹 서비스 만들기】 #20:1-2**
+
 ## Introduction
 
 리액트의 특징이자 장점 세 가지.
