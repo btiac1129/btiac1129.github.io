@@ -94,12 +94,12 @@ True
 * etc.
 
 
-## 파이썬 collections 모듈
+### 파이썬 collections 모듈
 
 이 모듈은 파이썬의 범용 내장 컨테이너 dict, list, set 및 tuple에 대한 **대안을 제공하는 특수 컨테이너 데이터형**을 구현합니다.
 
 
-## collections.Counter()
+### collections.Counter()
 
 **`Counter`는 해시 가능한 객체를 세기 위한 dict 서브 클래스**입니다. **요소가 딕셔너리 키로 저장되고 개수가 딕셔너리 값으로 저장되는 컬렉션**입니다. 개수는 0이나 음수를 포함하는 임의의 정숫값이 될 수 있습니다. Counter 클래스는 다른 언어의 백(bag)이나 멀티 셋(multiset)과 유사합니다.
 
