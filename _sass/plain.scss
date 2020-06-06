@@ -15,8 +15,7 @@ $leftWidth: 220px;
 }
 
 body {
-  /*font-family: "Raleway", sans-serif;*/
-  font-family: 'Nanum Gothic Coding', monospace;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 1.2em;
   margin: 0;
@@ -204,6 +203,7 @@ main {
 }
 
 .post-title {
+  font-family: 'Do Hyeon', sans-serif;
   line-height: 1.2em;
   font-size: 28px;
 }
@@ -224,10 +224,11 @@ main {
   padding-left: 30px;
 }
 .post {
-  font-family: "Merriweather", sans-serif;
+  /*font-family: "Merriweather", sans-serif;*/
+  font-family: 'Nanum Gothic Coding', monospace;
   font-weight: 300;
   color: #222;
-  line-height: 1.9em;
+  line-height: 1.5em;
   a {
     color: $linkColor;
     text-decoration: none;
@@ -242,7 +243,8 @@ main {
   h4,
   h5,
   h6 {
-    font-family: Raleway, sans-serif;
+    /*font-family: Raleway, sans-serif;*/
+    font-family: 'Nanum Gothic Coding', monospace;
   }
 }
 
