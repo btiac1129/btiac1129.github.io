@@ -158,14 +158,6 @@ main {
   }
 }
 
-.posts li:hover {
-  background-color: #FCEEEA;
-}
-
-.post li:hover {
-  background-color: #ffffcc;
-}
-
 .post-wrapper {
   border-bottom: 1px solid #ececec;
   margin-bottom: 1rem;
@@ -264,4 +256,8 @@ main {
   letter-spacing: 0.5px;
   padding-bottom: 10px;
   font-weight: normal;
+}
+
+.posts li:hover, .post li:hover {
+  background-color: #ffffcc;
 }
