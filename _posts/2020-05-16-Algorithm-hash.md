@@ -6,7 +6,7 @@ categories: Algorithm Python Hash
 use_math: true
 ---
 
-**post title : 알고리즘 / 해시 **
+**post title : 알고리즘 / 해시**
 
 ### 해싱의 개념
 
