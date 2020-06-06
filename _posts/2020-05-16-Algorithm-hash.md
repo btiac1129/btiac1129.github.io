@@ -6,6 +6,8 @@ categories: Algorithm Python Hash
 use_math: true
 ---
 
+**post title : 알고리즘 / 해시 **
+
 ### 해싱의 개념
 
 In this video, we are going to introduce you to the concept of hashing. 
