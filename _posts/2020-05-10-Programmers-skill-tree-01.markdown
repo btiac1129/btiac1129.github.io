@@ -6,6 +6,8 @@ categories: Python Programmers Coding-test
 use_math: true
 ---
 
+**_Description_ : 프로그래머스 스킬 체크 (level 1/5)**
+
 프로그래머스 스킬 체크 레벨 1. 30분 안에 두 문제를 풀고 제출 
 
 Q1. 첫번째 문제. 
