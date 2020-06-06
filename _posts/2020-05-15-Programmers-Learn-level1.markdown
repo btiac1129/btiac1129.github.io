@@ -6,6 +6,10 @@ categories: Python Programmers Coding-test
 use_math: true
 ---
 
+**_Description_ : 프로그래머스 코딩 테스트 level 1 연습 문제 (1/49)**
+
+
+
 ### Q. 완주하지 못한 선수
 
 * completion의 길이는 participant의 길이보다 1 작습니다.
