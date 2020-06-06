@@ -103,7 +103,7 @@ True
 
 **`Counter`는 해시 가능한 객체를 세기 위한 dict 서브 클래스**입니다. **요소가 딕셔너리 키로 저장되고 개수가 딕셔너리 값으로 저장되는 컬렉션**입니다. 개수는 0이나 음수를 포함하는 임의의 정숫값이 될 수 있습니다. Counter 클래스는 다른 언어의 백(bag)이나 멀티 셋(multiset)과 유사합니다.
 
-```python repl
+```python 
 >>> from collections import Counter
 >>> c = Counter('gallahad')
 >>> c
@@ -112,7 +112,7 @@ Counter({'a': 3, 'l': 2, 'h': 1, 'g': 1, 'd': 1})
 
 (계속) Counter 객체는 누락된 항목에 대해 KeyError를 발생시키는 대신 0을 반환한다는 점을 제외하고 딕셔너리 인터페이스를 갖습니다
 
-```python repl
+```python 
 >>> c = Counter(['eggs', 'ham'])
 >>> c
 Counter({'eggs': 1, 'ham': 1})
@@ -124,7 +124,7 @@ Counter({'eggs': 1, 'ham': 1})
 
 (계속) 개수를 0으로 설정해도 계수기에서 요소가 제거되지 않습니다. 완전히 제거하려면 `del`을 사용합니다.
 
-```python repl
+```python 
 >>> c['ham'] = 0
 >>> c
 Counter({'eggs': 1, 'ham': 0})
@@ -135,7 +135,7 @@ Counter({'eggs': 1})
 
 (계속) Counter 객체는 모든 딕셔너리에서 사용할 수 있는 메서드 이외의 세 가지 메서드를 지원합니다. 그 중 하나가 위 코딩 테스트 연습 문제 풀이에서 사용된 subtract([iterable-or-mapping]) 입니다. 
 
-```python repl
+```python 
 >>> p = Counter(['bacon', 'eggs', 'ham'])
 >>> p
 Counter({'bacon': 1, 'eggs': 1, 'ham': 1})
