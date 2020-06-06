@@ -67,7 +67,7 @@ def solution(p, c):
 
 Container 타입은 특정 속성이 구현되어 있는 클래스를 이야기합니다. 객체를 만드는데 직집적으로 관여하지 않지만, 특정 기능이 구현되어 있는 객체를 Container 객체라고 부를 수 있게 됩니다. 어떤 기능이 구현되어 있어야 하는 지는 조금 어려운 이야기입니다. 다음과 같이 간단하게 Container 객체가 맞는지 확인할 수 있습니다.
 
-```python repl
+```python console
 >>> from collections import Container
 >>> issubclass(list, Container)
 True
