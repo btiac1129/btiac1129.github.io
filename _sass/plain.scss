@@ -224,11 +224,12 @@ main {
   padding-left: 30px;
 }
 .post {
-  /*font-family: "Merriweather", sans-serif;*/
-  font-family: 'Nanum Gothic Coding', monospace;
+  font-family: "Merriweather", sans-serif;
+  /*font-family: 'Nanum Gothic Coding', monospace;*/
   font-weight: 300;
   color: #222;
-  line-height: 1.9em;
+  line-height: 1.7em;
+  font-size: 0.8em;
   a {
     color: $linkColor;
     text-decoration: none;
@@ -243,8 +244,7 @@ main {
   h4,
   h5,
   h6 {
-    /*font-family: Raleway, sans-serif;*/
-    font-family: 'Nanum Pen Script', cursive;
+    font-family: Raleway, sans-serif;
   }
 }
 
