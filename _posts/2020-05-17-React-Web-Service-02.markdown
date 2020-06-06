@@ -6,7 +6,7 @@ categories: React Programmers
 use_math: true
 ---
 
-**_Description_ : 【리액트로 웹 서비스 만들기】#20:#3-#4** 
+**_Description_ : 【리액트로 웹 서비스 만들기】 #20:3-4** 
 
 ### 웹 팩
 
