@@ -6,6 +6,8 @@ categories: React Programmers
 use_math: true
 ---
 
+**_Description_ : 【리액트로 웹 서비스 만들기】#20:#3-#4** 
+
 ### 웹 팩
 
 우리가 사용하는 코드는 리액트 코드이기 때문에 이걸 자바스크립트로 바꿔주는 툴이 필요하다. 이걸 트랜스파일러라고 한다. 
