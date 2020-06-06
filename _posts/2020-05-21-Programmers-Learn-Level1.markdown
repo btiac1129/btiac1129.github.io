@@ -6,7 +6,7 @@ categories: Python Programmers Coding-test
 use_math: true
 ---
 
-**_Description_ : 프로그래머스 코딩 테스트 level 1 연습 문제 2/49**
+**_Description_ : 프로그래머스 코딩 테스트 level 1 연습 문제 (2/49)**
 
 탐욕법에 해당하는 문제라고 적혀 있어서 문제를 풀다가 탐욕법 알고리즘을 공부했는데, 문제를 풀 때 적용하진 못한 것 같다. 이번 문제는 어려웠지만 다른 사람의 풀이를 보지 않고 혼자 힘으로 풀고 싶었다. 푸는데 시간이 좀 걸렸다. 
 
