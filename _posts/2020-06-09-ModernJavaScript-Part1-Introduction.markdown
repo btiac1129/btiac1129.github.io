@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "모던 자바스크립트 튜토리얼 Part1 _소개"
+title:  "[자바스크립트 언어] 모던 자바스크립트 튜토리얼 Part1 - 소개"
 date:   2020-06-9 09:45 
 categories: javascript ModernJavascript 
 use_math: true
