@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "프로그래머스 스킬 체크 level 1"
+title:  "[코딩 테스트] 프로그래머스 스킬 체크 level 1"
 date:   2020-05-11 09:33:36 
-categories: Python Programmers Coding-test
+categories: Python Coding-test Programmers
 use_math: true
 ---
 
