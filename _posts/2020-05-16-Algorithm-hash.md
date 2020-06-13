@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "해시 1"
+title:  "[알고리즘] 해시 1"
 date:   2020-05-15 09:14:36 
-categories: Algorithm Python Hash
+categories: Algorithm Hash Python
 use_math: true
 ---
 
