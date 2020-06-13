@@ -84,6 +84,7 @@ def solution(answers):
 
     for idx, answer in enumerate(answers):
         if answer == pattern1[idx%len(pattern1)]:
+	        # 여기서 나머지 연산을 적용한 게 나와 다름.
             score[0] += 1
         if answer == pattern2[idx%len(pattern2)]:
             score[1] += 1
@@ -100,7 +101,11 @@ def solution(answers):
 ***
 
 ## 새로 배운 내용 <a id="deep"></a> 
+
+### enumerate
+
+(내용 추가 예정)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MDgyNDk2MCwtMTIwMTQ1NzMyNSwxMD
+eyJoaXN0b3J5IjpbLTM3NzgyNzgzNywtMTIwMTQ1NzMyNSwxMD
 c5MTYxMTQwXX0=
 -->
