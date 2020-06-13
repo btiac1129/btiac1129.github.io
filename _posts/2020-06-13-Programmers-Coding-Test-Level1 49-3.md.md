@@ -39,7 +39,33 @@ use_math: true
 | [1, 3, 2, 4, 2] | [1, 2, 3] |
 
 ***
+## 나의 풀이 <a id="my-solution"></a>
 
+```python
+import math
+
+def solution(answers):
+    m1 = [1, 2, 3, 4, 5] * (math.trunc(len(answers)/5) + 1)
+    m2 = [2, 1, 2, 3, 2, 4, 2, 5] * (math.trunc(len(answers)/8) + 1)
+    m3 = [3, 3, 1, 1, 2, 2, 4, 4, 5, 5] * (math.trunc(len(answers)/10) +1)
+    score = {}
+    score[1] = 0
+    score[2] = 0
+    score[3] = 0
+    for i in range(len(answers)):
+        if answers[i] == m1[i]:
+            score[1] += 1
+        if answers[i] == m2[i]:
+            score[2] += 1
+        if answers[i] == m3[i]:
+            score[3] += 1
+    max_score = max(score.values())
+    answer = []
+    for i in range(len(score)):
+        if score[i+1] == max_score:
+            answer.append(i+1)
+    return answer
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxNzgxNTIxXX0=
+eyJoaXN0b3J5IjpbMzcxNTQwNzI4XX0=
 -->
