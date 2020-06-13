@@ -32,6 +32,14 @@ use_math: true
 -   문제의 정답은 1, 2, 3, 4, 5중 하나입니다.
 -   **가장 높은 점수를 받은 사람이 여럿일 경우, return하는 값을 오름차순 정렬해주세요.**
 
+### 입출력 예시
+| answers | return |
+| ------- | ------ |
+| [1, 2, 3, 4, 5] | [1] |
+| [1, 3, 2, 4, 2] | [1, 2, 3] |
+
+***
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3MjY1MjZdfQ==
+eyJoaXN0b3J5IjpbNzkxNzgxNTIxXX0=
 -->
