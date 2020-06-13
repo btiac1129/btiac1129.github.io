@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[코딩 테스트] 프로그래머스 코딩 테스트 연습 level 1. 모의고사"
-date:   2020-05-15 09:14:36 
+date:   2020-06-13 21:51:34 
 categories: Python Coding-test Programmers Brute-Force-Search
 use_math: true
 ---
@@ -106,6 +106,6 @@ def solution(answers):
 
 (내용 추가 예정)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NzgyNzgzNywtMTIwMTQ1NzMyNSwxMD
-c5MTYxMTQwXX0=
+eyJoaXN0b3J5IjpbLTExNDQwODQxMjcsLTEyMDE0NTczMjUsMT
+A3OTE2MTE0MF19
 -->
