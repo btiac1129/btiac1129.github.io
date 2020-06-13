@@ -62,11 +62,11 @@ def solution(answers):
             score[3] += 1
     max_score = max(score.values()) # 가장 높은 점수를 max_score 변수에 저장
     answer = []
-    for i in range(len(score)):
+    for i in range(len(score)): #
         if score[i+1] == max_score:
             answer.append(i+1)
     return answer
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3OTE2MTE0MF19
+eyJoaXN0b3J5IjpbLTg2NTQxNTYyNSwxMDc5MTYxMTQwXX0=
 -->
