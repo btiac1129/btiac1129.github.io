@@ -68,6 +68,13 @@ def solution(answers):
             answer.append(i+1)
     return answer
 ```
+
+***
+
+## 다른 사람들의 풀이 <a id="problem-solution"></a>
+
+### 풀이【1ㄴ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDE0NTczMjUsMTA3OTE2MTE0MF19
+eyJoaXN0b3J5IjpbLTIwNzg0OTM1MDMsLTEyMDE0NTczMjUsMT
+A3OTE2MTE0MF19
 -->
