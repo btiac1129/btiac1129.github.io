@@ -73,8 +73,10 @@ def solution(answers):
 
 ## 다른 사람들의 풀이 <a id="problem-solution"></a>
 
-### 풀이【1ㄴ
+### 풀이【1】
+```python
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzg0OTM1MDMsLTEyMDE0NTczMjUsMT
-A3OTE2MTE0MF19
+eyJoaXN0b3J5IjpbMTMxMjI0NDMwOCwtMTIwMTQ1NzMyNSwxMD
+c5MTYxMTQwXX0=
 -->
