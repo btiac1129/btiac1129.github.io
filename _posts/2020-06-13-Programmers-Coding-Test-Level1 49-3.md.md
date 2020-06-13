@@ -53,14 +53,14 @@ def solution(answers):
     score[2] = 0
     score[3] = 0
     for i in range(len(answers)):
-	    # 각각의 수포자들이 문제를 맞춰
+	    # 각각의 수포자들이 문제를 맞췄는지 정답과 비교해보고, 맞았을 경우 해당 수포자의 점수를 1 추가한다.
         if answers[i] == m1[i]: 
             score[1] += 1
         if answers[i] == m2[i]:
             score[2] += 1
         if answers[i] == m3[i]:
             score[3] += 1
-    max_score = max(score.values())
+    max_score = max(score.values()) # 가장 높은 점수를 max_score 변수에 저장
     answer = []
     for i in range(len(score)):
         if score[i+1] == max_score:
@@ -68,5 +68,5 @@ def solution(answers):
     return answer
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2MzQxNjYxXX0=
+eyJoaXN0b3J5IjpbMTA3OTE2MTE0MF19
 -->
