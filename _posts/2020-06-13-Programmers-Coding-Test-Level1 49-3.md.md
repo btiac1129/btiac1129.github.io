@@ -97,8 +97,10 @@ def solution(answers):
     return result
 ```
 
-## 
+***
+
+## 새로 배운 내용 <a id="deep"></a> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjUwODA5MCwtMTIwMTQ1NzMyNSwxMD
+eyJoaXN0b3J5IjpbLTg0MDgyNDk2MCwtMTIwMTQ1NzMyNSwxMD
 c5MTYxMTQwXX0=
 -->
