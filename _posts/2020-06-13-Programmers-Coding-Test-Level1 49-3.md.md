@@ -131,9 +131,12 @@ def enumerate(sequence, start=0):
 * 이 함수는 순서가 있는 자료형(list, set, tuple, dictionary, string)을 입력으로 받아 **인덱스 값을 포함하는 enumerate 객체**를 리턴합니다.
 * 보통 enumerate 함수는 for문과 함께 자주 사용됩니다.
 
+```python
+data = enumerate((1, 2, 3))
+```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg1NDc3ODM2LC0yMDQzODEyNDM4LC0xNz
-UxMzA1NTIwLC0xMTQ0MDg0MTI3LC0xMjAxNDU3MzI1LDEwNzkx
-NjExNDBdfQ==
+eyJoaXN0b3J5IjpbLTg5MzkxNjE3NywtMjA0MzgxMjQzOCwtMT
+c1MTMwNTUyMCwtMTE0NDA4NDEyNywtMTIwMTQ1NzMyNSwxMDc5
+MTYxMTQwXX0=
 -->
