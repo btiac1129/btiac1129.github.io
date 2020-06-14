@@ -113,10 +113,19 @@ Return an enumerate object. `[iterable]` must be a **sequence, an iterator, or s
 ```python
 >>> seasons = ['Spring', 'Summer', 'Fall', 'Winter']
 >>> list(enumerate(seasons))
-[(0, 'Spring'), (1, 'Summer'),
+[(0, 'Spring'), (1, 'Summer'), (2, 'Fall'), (3, 'Winter')]
+>>> list(enumerate(seasons, start=1))
+[(1, 'Spring'), (2, 'Summer'), (3, 'Fall'), (4, 'Winter')]
+```
+Equivalent to :
+```python
+def enumerate(sequence, start=0):
+	n = start
+	for elem in sequence
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MzI3ODUxOSwtMjA0MzgxMjQzOCwtMT
-c1MTMwNTUyMCwtMTE0NDA4NDEyNywtMTIwMTQ1NzMyNSwxMDc5
-MTYxMTQwXX0=
+eyJoaXN0b3J5IjpbLTExMjU1OTQ2ODMsLTIwNDM4MTI0MzgsLT
+E3NTEzMDU1MjAsLTExNDQwODQxMjcsLTEyMDE0NTczMjUsMTA3
+OTE2MTE0MF19
 -->
