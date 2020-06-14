@@ -128,9 +128,9 @@ def enumerate(sequence, start=0):
 
 * enumerate 함수는 리스트가 있는 경우, **순서와 리스트의 값을 전달**하는 기능을 가집니다.
 * enumerate는 '열거하다'라는 뜻입니다. 
-* 이 함수는 순서가 있는 자료형(ㅣ
+* 이 함수는 순서가 있는 자료형(list, set, tuple, dictionary, string)을 입력으로 받아 **인덱스 값을 포함하는 enumerate 객체**를 리턴합니다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDg0MTY3NzUsLTIwNDM4MTI0MzgsLT
-E3NTEzMDU1MjAsLTExNDQwODQxMjcsLTEyMDE0NTczMjUsMTA3
-OTE2MTE0MF19
+eyJoaXN0b3J5IjpbLTgyMjE3ODk2LC0yMDQzODEyNDM4LC0xNz
+UxMzA1NTIwLC0xMTQ0MDg0MTI3LC0xMjAxNDU3MzI1LDEwNzkx
+NjExNDBdfQ==
 -->
