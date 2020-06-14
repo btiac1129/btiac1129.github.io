@@ -121,11 +121,13 @@ Equivalent to :
 ```python
 def enumerate(sequence, start=0):
 	n = start
-	for elem in sequence
+	for elem in sequence:
+		yield n, elem
+		n += 1
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjU1OTQ2ODMsLTIwNDM4MTI0MzgsLT
-E3NTEzMDU1MjAsLTExNDQwODQxMjcsLTEyMDE0NTczMjUsMTA3
-OTE2MTE0MF19
+eyJoaXN0b3J5IjpbNzgyNDA2NDk0LC0yMDQzODEyNDM4LC0xNz
+UxMzA1NTIwLC0xMTQ0MDg0MTI3LC0xMjAxNDU3MzI1LDEwNzkx
+NjExNDBdfQ==
 -->
