@@ -47,7 +47,28 @@ use_math: true
 
 ***
 
-## 나의 풀이 <a id="my-solution
+## 나의 풀이 <a id="my-solution"></a>
+
+```python
+def solution(array, commands):
+    answer = []
+    for command in commands:
+        sliced_array = sorted(array[command[0]-1:command[1]])
+        answer.append(sliced_array[command[2]-1])
+    return answer
+```
+
+***
+
+## 다른 사람들의 풀이 <a id="problem-solution"></a>
+
+### 풀이【1ㄴ
+```python
+def solution(array, commands):
+    return list(map(lambda x:sorted(array[x[0]-1:x[1]])[x[2]-1], commands))
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MzgwNDUyNywtMTkwNjM5MDg5NV19
+eyJoaXN0b3J5IjpbLTE1NjQ0MDU2MzEsLTE5MDYzOTA4OTVdfQ
+==
 -->
