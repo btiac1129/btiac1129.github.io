@@ -62,13 +62,23 @@ def solution(array, commands):
 
 ## 다른 사람들의 풀이 <a id="problem-solution"></a>
 
-### 풀이【1ㄴ
+### 풀이【1】
 ```python
 def solution(array, commands):
     return list(map(lambda x:sorted(array[x[0]-1:x[1]])[x[2]-1], commands))
 ```
 
+### 풀이【2】
+나의 풀이와 비슷한 모습인데, i, j, k 변수에 저장해서 풀이를 진행했다
+```python
+def solution(array, commands):
+    answer = []
+    for command in commands:
+        i,j,k = command
+        # i, j, k를 한 번에 입력할 수 있다.
+        answer.append(list(sorted(array[i-1:j]))[k-1])
+    return answer
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjQ0MDU2MzEsLTE5MDYzOTA4OTVdfQ
-==
+eyJoaXN0b3J5IjpbLTczNDk5NzE2NCwtMTkwNjM5MDg5NV19
 -->
