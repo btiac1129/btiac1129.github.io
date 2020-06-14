@@ -105,8 +105,11 @@ def solution(answers):
 
 ### enumerate
 
-(내용 추가 예정)
+```python
+enumerate(iterable, start = 0)
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDQwODQxMjcsLTEyMDE0NTczMjUsMT
-A3OTE2MTE0MF19
+eyJoaXN0b3J5IjpbLTE3NTEzMDU1MjAsLTExNDQwODQxMjcsLT
+EyMDE0NTczMjUsMTA3OTE2MTE0MF19
 -->
