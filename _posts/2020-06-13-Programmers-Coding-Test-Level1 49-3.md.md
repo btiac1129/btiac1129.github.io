@@ -110,10 +110,13 @@ enumerate([iterable], start = 0)
 ```
 Return an enumerate object. `[iterable]` must be a **sequence, an iterator, or some other object which supports iteration**. The `__next__()` method of the iterator returned by `enumerate()` returns **a tuple containing a count (from _start_ which defaults to 0) and the values** obtained from iterating over _iterable_.
 
-``
+```python
+>>> seasons = ['Spring', 'Summer', 'Fall', 'Winter']
+>>> list(enumerate(seasons))
+[(0, 'Spring'), (1, 'Summer'),
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzM4ODExOCwtMjA0MzgxMjQzOCwtMT
+eyJoaXN0b3J5IjpbLTk5MzI3ODUxOSwtMjA0MzgxMjQzOCwtMT
 c1MTMwNTUyMCwtMTE0NDA4NDEyNywtMTIwMTQ1NzMyNSwxMDc5
 MTYxMTQwXX0=
 -->
