@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "[코딩 테스트] 프로그래머스 코딩 테스트 연습 level 1. 모의고사"
-date:   2020-06-13 21:51:34 
-categories: Python Coding-test Programmers sort
+date:   2020-06-14 21:51:34 
+categories: Python Coding-test Programmers Sort
 use_math: true
 ---
 
@@ -19,5 +19,5 @@ use_math: true
 
 ### 문제 설명
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MjA3MzE1NV19
+eyJoaXN0b3J5IjpbLTkyMzczMTkzMl19
 -->
