@@ -63,13 +63,14 @@ def solution(array, commands):
 ## 다른 사람들의 풀이 <a id="problem-solution"></a>
 
 ### 풀이【1】
+※ lambda 함수와 map 함수의 사용.
 ```python
 def solution(array, commands):
     return list(map(lambda x:sorted(array[x[0]-1:x[1]])[x[2]-1], commands))
 ```
 
 ### 풀이【2】
-나의 풀이와 비슷한 모습인데, i, j, k 변수에 저장해서 풀이를 진행했다
+※ 나의 풀이와 비슷한 모습이지만 각각 i, j, k 변수를 만들어서 저장한 후 풀이를 진행했다는 점이 인상적이었다.
 ```python
 def solution(array, commands):
     answer = []
@@ -79,6 +80,13 @@ def solution(array, commands):
         answer.append(list(sorted(array[i-1:j]))[k-1])
     return answer
 ```
+
+***
+
+## 새로 배운 내용 <a id='deep'></a>
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDk5NzE2NCwtMTkwNjM5MDg5NV19
+eyJoaXN0b3J5IjpbLTE4NjM0MjYyNTgsLTE5MDYzOTA4OTVdfQ
+==
 -->
