@@ -47,7 +47,7 @@ use_math: true
 
 ***
 
-## 나의 풀이 <a id=
+## 나의 풀이 <a id="my-solution
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDYzOTA4OTVdfQ==
+eyJoaXN0b3J5IjpbMTY4MzgwNDUyNywtMTkwNjM5MDg5NV19
 -->
