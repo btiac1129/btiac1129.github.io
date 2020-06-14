@@ -103,7 +103,7 @@ def solution(answers):
 
 ## 새로 배운 내용 <a id="deep"></a> 
 
-### enumerate
+### enumerate 함수
 
 ```python
 enumerate([iterable], start = 0)
@@ -126,8 +126,11 @@ def enumerate(sequence, start=0):
 		n += 1
 ```
 
+* enumerate 함수는 리스트가 있는 경우, **순서와 리스트의 값을 전달**하는 기능을 가집니다.
+* enumerate는 '열거하다'라는 뜻입니다. 
+* 이 함수는 순서가 있는 자료형(ㅣ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyNDA2NDk0LC0yMDQzODEyNDM4LC0xNz
-UxMzA1NTIwLC0xMTQ0MDg0MTI3LC0xMjAxNDU3MzI1LDEwNzkx
-NjExNDBdfQ==
+eyJoaXN0b3J5IjpbLTE5NDg0MTY3NzUsLTIwNDM4MTI0MzgsLT
+E3NTEzMDU1MjAsLTExNDQwODQxMjcsLTEyMDE0NTczMjUsMTA3
+OTE2MTE0MF19
 -->
