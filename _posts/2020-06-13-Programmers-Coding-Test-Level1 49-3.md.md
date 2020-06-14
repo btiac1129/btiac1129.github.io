@@ -132,11 +132,18 @@ def enumerate(sequence, start=0):
 * 보통 enumerate 함수는 for문과 함께 자주 사용됩니다.
 
 ```python
-data = enumerate((1, 2, 3))
+>>> data = enumerate((1, 2, 3))
+>>> print(data, type(data))
+<enumerate object at 0x0000017B0578CB38> <class 'enumerate'>
+>>> for i, value in data:
+		print(i, ":", value)
+0 : 1
+1 : 2
+2 : 3
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MzkxNjE3NywtMjA0MzgxMjQzOCwtMT
-c1MTMwNTUyMCwtMTE0NDA4NDEyNywtMTIwMTQ1NzMyNSwxMDc5
-MTYxMTQwXX0=
+eyJoaXN0b3J5IjpbLTE1OTU5MzIwMjksLTg5MzkxNjE3NywtMj
+A0MzgxMjQzOCwtMTc1MTMwNTUyMCwtMTE0NDA4NDEyNywtMTIw
+MTQ1NzMyNSwxMDc5MTYxMTQwXX0=
 -->
