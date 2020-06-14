@@ -85,8 +85,9 @@ def solution(array, commands):
 
 ## 새로 배운 내용 <a id='deep'></a>
 
+### lambda 함수
 
+### map 함수
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjM0MjYyNTgsLTE5MDYzOTA4OTVdfQ
-==
+eyJoaXN0b3J5IjpbLTkwMDAzMDEwNywtMTkwNjM5MDg5NV19
 -->
