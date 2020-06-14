@@ -106,10 +106,11 @@ def solution(answers):
 ### enumerate
 
 ```python
-enumerate(iterable, start = 0)
+enumerate([iterable], start = 0)
 ```
+Return an enumerate object. [iterable] must be a sequence, an iterator, or some other object which supports iteration. The `__next__() method of the iterator returned by enumerate()
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTEzMDU1MjAsLTExNDQwODQxMjcsLT
-EyMDE0NTczMjUsMTA3OTE2MTE0MF19
+eyJoaXN0b3J5IjpbNTg1MTk1NTI4LC0xNzUxMzA1NTIwLC0xMT
+Q0MDg0MTI3LC0xMjAxNDU3MzI1LDEwNzkxNjExNDBdfQ==
 -->
