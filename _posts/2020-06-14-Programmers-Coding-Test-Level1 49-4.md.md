@@ -111,7 +111,9 @@ The above example uses a lambda expression **to return a function**. Another use
 ```
 
 ### map 함수
+
+Wraps `map()` in a `list` call. It also changes map(None, x) to list(x). Using `from future_builtins import map` disables this fixer.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NTc3NjgzNiwtMTkyMzIwNDIxOSwtOT
-AwMDMwMTA3LC0xOTA2MzkwODk1XX0=
+eyJoaXN0b3J5IjpbLTExMzYxMDA0ODIsMTY5NTc3NjgzNiwtMT
+kyMzIwNDIxOSwtOTAwMDMwMTA3LC0xOTA2MzkwODk1XX0=
 -->
