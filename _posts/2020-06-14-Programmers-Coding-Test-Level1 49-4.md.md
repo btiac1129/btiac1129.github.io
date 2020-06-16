@@ -125,11 +125,16 @@ map(function, iterable)
 >>> numbers = (1, 2, 3, 4)
 >>> result = map(addition, numbers)
 >>> result
->
+<map object at 0x0000026C96F983C8>
+>>> list(result)
+[2, 4, 6, 8]
+```
+```python
+
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjQ1Mzg1MCwtMTEzNjEwMDQ4MiwxNj
-k1Nzc2ODM2LC0xOTIzMjA0MjE5LC05MDAwMzAxMDcsLTE5MDYz
-OTA4OTVdfQ==
+eyJoaXN0b3J5IjpbLTIxMzM3NjA4MTcsLTExMzYxMDA0ODIsMT
+Y5NTc3NjgzNiwtMTkyMzIwNDIxOSwtOTAwMDMwMTA3LC0xOTA2
+MzkwODk1XX0=
 -->
