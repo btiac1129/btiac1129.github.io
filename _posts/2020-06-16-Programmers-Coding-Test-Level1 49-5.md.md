@@ -32,7 +32,7 @@ use_math: true
 
 | a | b | result |
 | - | - | ------ |
-| `5` | `24` | `"TUE"` |
+| `	 5  ` | `  24  ` | ` "TUE" ` |
 
 ***
 
@@ -110,6 +110,6 @@ If _sep_ is given, consecutive delimiters are not grouped together and **are dee
 ['1', '2', '3']
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MDkxOTY2NCwtNTcwMDM4ODEsLTcwOD
-M2MTU0M119
+eyJoaXN0b3J5IjpbLTIxNDIwNTU2LDEyOTA5MTk2NjQsLTU3MD
+AzODgxLC03MDgzNjE1NDNdfQ==
 -->
