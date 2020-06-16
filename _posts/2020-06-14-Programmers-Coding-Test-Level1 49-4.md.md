@@ -87,7 +87,10 @@ def solution(array, commands):
 
 ### lambda 함수
 
+Small anonymous functions can be created with the la
+
 ### map 함수
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDAzMDEwNywtMTkwNjM5MDg5NV19
+eyJoaXN0b3J5IjpbLTIxMDUxMzgzMywtOTAwMDMwMTA3LC0xOT
+A2MzkwODk1XX0=
 -->
