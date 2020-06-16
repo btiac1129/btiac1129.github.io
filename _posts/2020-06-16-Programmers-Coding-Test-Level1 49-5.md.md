@@ -90,7 +90,17 @@ def getDayName(a,b):
 
 If _sep_ is given, consecutive delimiters are not grouped together and **are deemed to delimit empty strings** (for example, `'1,,2'.split(',')` returns `['1', '', '2']`).  The sep argument may consisit of multiple characters (for example, `'1<>2<>3'.split('<>')` returns `['1', '2', '3']`). Splitting an empty string with a specified separator returns `['']`.
 
+```python
+>>> '1,2,3'.split(',')
+['1', '2', '3']
+>>> '1,2,3'.split(',', maxsplit=1)
+['1', '2,3']
+>>> '1,2,,3'.split(',')
+['1', '2', '', '3']
+```
+
+ㅑ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDMyNjE3NSwtNTcwMDM4ODEsLTcwOD
+eyJoaXN0b3J5IjpbLTkyMTM4NDA2OSwtNTcwMDM4ODEsLTcwOD
 M2MTU0M119
 -->
