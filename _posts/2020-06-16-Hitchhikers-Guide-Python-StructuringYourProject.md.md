@@ -2,11 +2,11 @@
 layout: post
 title:  "[파.히.안] "
 date:   2020-06-16 17:14:34 
-categories: Python 
+categories: Python Software
 use_math: true
 ---
 
-**_Description_ : 프로그래머스 코딩 테스트 level 1 연습 문제 (6/49)**
+**_Description_ : 【파이썬을 여행하는 히치하이커를 위한 안내서】 내용 요약 (6/49)**
 
 * [같은 숫자는 싫어](#problem-description)
 * [나의 풀이](#my-solution)
@@ -17,5 +17,5 @@ use_math: true
 
 ## 같은 숫자는 싫어 <a id="problem-description"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NzEzNjE3NF19
+eyJoaXN0b3J5IjpbODU3NjU5ODgwXX0=
 -->
