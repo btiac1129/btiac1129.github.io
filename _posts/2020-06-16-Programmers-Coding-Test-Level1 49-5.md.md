@@ -50,7 +50,16 @@ def solution(a, b):
     return answer
 ```
 
+***
 
+## 다른 사람들의 풀이 <a id="problem-solution"></a>
+
+### 풀이 【1】
+```python
+
+```
+
+### 풀이 ㄴ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxOTY3MDAwNywtNzA4MzYxNTQzXX0=
+eyJoaXN0b3J5IjpbMTM0NjI3MTM3NSwtNzA4MzYxNTQzXX0=
 -->
