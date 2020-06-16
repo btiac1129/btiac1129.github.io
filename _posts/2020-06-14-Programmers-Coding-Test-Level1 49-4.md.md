@@ -138,10 +138,13 @@ map(function, iterable)
 [2, 4, 6, 8]
 ```
 ```python
+>>> # List of strings
+>>> l = ['sat', 'bat', 'cat', 'mat']
+>>> # map() can listify the list of strings individually
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1ODMwNTQ0OCwtMjEzMzc2MDgxNywtMT
+eyJoaXN0b3J5IjpbLTU3NDM5MzE3NiwtMjEzMzc2MDgxNywtMT
 EzNjEwMDQ4MiwxNjk1Nzc2ODM2LC0xOTIzMjA0MjE5LC05MDAw
 MzAxMDcsLTE5MDYzOTA4OTVdfQ==
 -->
