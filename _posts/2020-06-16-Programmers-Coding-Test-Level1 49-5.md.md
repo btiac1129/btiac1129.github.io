@@ -11,6 +11,7 @@ use_math: true
 * [2016년](#problem-description)
 * [나의 풀이](#my-solution)
 * [다른 사람들의 풀이](#problem-solution)
+* [새로 배운 내용](#deep)
 
 ***
 
@@ -79,6 +80,15 @@ def getDayName(a,b):
     return t[datetime.datetime(2016, a, b).weekday()]
     # 마침, weekday() 함수는 0 부터 월요일이다.
 ```
+
+***
+
+## 새로 배운 내용 <a id='deep'></a>
+
+### str.split(sep=None, maxsplit=-1)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDAzODgxLC03MDgzNjE1NDNdfQ==
+eyJoaXN0b3J5IjpbLTEwNTMzNjc4NzMsLTU3MDAzODgxLC03MD
+gzNjE1NDNdfQ==
 -->
