@@ -36,6 +36,19 @@ use_math: true
 | `[1, 1, 3, 3, 0, 1, 1]` | `[1, 3, 0, 1]` |
 | `[4, 4, 4, 3, 3]` | `[4, 3]` |
 
+***
+## 나의 풀이 <a id="my-solution"></a>
+
+```python
+def solution(arr):
+	answer = []
+	for idx in range(len(arr)-1):
+		if arr[idx] == arr[idx + 1]:
+			arr[idx] = -1
+		else:
+			answer.append(arr[idx])
+			
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTM2NDYxMF19
+eyJoaXN0b3J5IjpbMTE5NzIwOTM4NF19
 -->
