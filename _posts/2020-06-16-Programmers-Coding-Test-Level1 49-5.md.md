@@ -88,9 +88,9 @@ def getDayName(a,b):
 ### str.split(sep=None, maxsplit=-1)
 **Return a list of the words** in the string, using _sep_ as the delimiter string. If _maxsplit_ is given, at most _maxsplit_ splits are done (thus, the list will have at most `maxsplit + 1` elements). If _maxsplit_ is not specified or `-1`, **then there is no limit on the number of splits** (all possible splits are made).
 
-If _sep_ is given, consecutive delimiters are not 
+If _sep_ is given, consecutive delimiters are not grouped together and are deemed to delimit empty strings (for example, `'1, , 2'.split(',')` returns ['1', '', '2'])
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODIyNDE1NzYsLTU3MDAzODgxLC03MD
-gzNjE1NDNdfQ==
+eyJoaXN0b3J5IjpbOTcwOTU2ODc5LC01NzAwMzg4MSwtNzA4Mz
+YxNTQzXX0=
 -->
