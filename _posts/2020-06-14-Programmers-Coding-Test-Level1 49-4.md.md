@@ -120,11 +120,16 @@ map(function, iterable)
 #iterable : It is a iterable which is to be mapped.
 ```
 ```python
-
+>>> def addition(n):
+		return n + n
+>>> numbers = (1, 2, 3, 4)
+>>> result = map(addition, numbers)
+>>> result
+>
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MzMwMzYzMywtMTEzNjEwMDQ4MiwxNj
+eyJoaXN0b3J5IjpbLTQ5NjQ1Mzg1MCwtMTEzNjEwMDQ4MiwxNj
 k1Nzc2ODM2LC0xOTIzMjA0MjE5LC05MDAwMzAxMDcsLTE5MDYz
 OTA4OTVdfQ==
 -->
