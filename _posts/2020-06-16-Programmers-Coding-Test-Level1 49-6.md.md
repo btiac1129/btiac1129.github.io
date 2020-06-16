@@ -58,7 +58,15 @@ def solution(arr):
 
 ## 다른 사람들의 풀이 <a id='problem-solution'></a>
 
-
+### 풀이【1】
+```python
+def solution(arr):
+    a = []
+    for i in arr:
+        if a[-1:] == [i]: continue
+        a.append(i)
+    return a
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NTE2NjIzOF19
+eyJoaXN0b3J5IjpbMTU1MDY4NDc4MSwxNzg1MTY2MjM4XX0=
 -->
