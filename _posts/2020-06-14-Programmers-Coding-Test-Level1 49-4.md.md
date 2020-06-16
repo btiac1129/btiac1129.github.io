@@ -92,6 +92,7 @@ def solution(array, commands):
 >>> def make_incrementor(n):
 		return lambda x: x + n
 >>> f = make_incrementor(42)
+>>>
 >>> f(0)
 42
 >>> f(1)
@@ -100,6 +101,6 @@ def solution(array, commands):
 
 ### map 함수
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjMyMDQyMTksLTkwMDAzMDEwNywtMT
-kwNjM5MDg5NV19
+eyJoaXN0b3J5IjpbLTM0NjQ5MDYzOSwtMTkyMzIwNDIxOSwtOT
+AwMDMwMTA3LC0xOTA2MzkwODk1XX0=
 -->
