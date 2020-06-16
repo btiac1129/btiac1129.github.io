@@ -141,10 +141,14 @@ map(function, iterable)
 >>> # List of strings
 >>> l = ['sat', 'bat', 'cat', 'mat']
 >>> # map() can listify the list of strings individually
-
+>>> test = map(list, l)
+>>> test
+<map object at 0x0000026C970C2F08>
+>>> list(test)
+[['s', 'a', 't'], ['b', 'a', 't'], ['c', 'a', 't'], ['m', 'a', 't']]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NDM5MzE3NiwtMjEzMzc2MDgxNywtMT
-EzNjEwMDQ4MiwxNjk1Nzc2ODM2LC0xOTIzMjA0MjE5LC05MDAw
-MzAxMDcsLTE5MDYzOTA4OTVdfQ==
+eyJoaXN0b3J5IjpbLTE1NzUzMDg4MTYsLTIxMzM3NjA4MTcsLT
+ExMzYxMDA0ODIsMTY5NTc3NjgzNiwtMTkyMzIwNDIxOSwtOTAw
+MDMwMTA3LC0xOTA2MzkwODk1XX0=
 -->
