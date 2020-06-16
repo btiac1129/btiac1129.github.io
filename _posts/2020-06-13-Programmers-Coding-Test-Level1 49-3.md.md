@@ -135,6 +135,7 @@ def enumerate(sequence, start=0):
 >>> data = enumerate((1, 2, 3))
 >>> print(data, type(data))
 <enumerate object at 0x0000017B0578CB38> <class 'enumerate'>
+>>>
 >>> for i, value in data:
 		print(i, ":", value)
 0 : 1
@@ -143,7 +144,7 @@ def enumerate(sequence, start=0):
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTU5MzIwMjksLTg5MzkxNjE3NywtMj
-A0MzgxMjQzOCwtMTc1MTMwNTUyMCwtMTE0NDA4NDEyNywtMTIw
-MTQ1NzMyNSwxMDc5MTYxMTQwXX0=
+eyJoaXN0b3J5IjpbNTUxODMwNTI3LC0xNTk1OTMyMDI5LC04OT
+M5MTYxNzcsLTIwNDM4MTI0MzgsLTE3NTEzMDU1MjAsLTExNDQw
+ODQxMjcsLTEyMDE0NTczMjUsMTA3OTE2MTE0MF19
 -->
