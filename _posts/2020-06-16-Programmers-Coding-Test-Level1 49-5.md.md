@@ -102,9 +102,14 @@ If _sep_ is given, consecutive delimiters are not grouped together and **are dee
 **If _sep_ is not specified or is None**, a different splitting algorithm is applied: runs of **consecutive whitespace are regarded as a single separator**, and the result will contain no empty strings at the start or end if the string has leading or trailing whitespace. Consequently, splitting an empty string or a string consisting of just whitespace with a `None` separator returns `[]`.
 
 ```python
-
+>>> '1 2 3'.split()
+['1', '2', '3']
+>>> '1 2 3'.split(maxsplit=1)
+['1', '2 3']
+>>> ' 1 2 3 '.split()
+['1', '2', '3']
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTY3ODg2MywtNTcwMDM4ODEsLTcwOD
+eyJoaXN0b3J5IjpbMTI5MDkxOTY2NCwtNTcwMDM4ODEsLTcwOD
 M2MTU0M119
 -->
