@@ -47,8 +47,9 @@ def solution(arr):
 			arr[idx] = -1
 		else:
 			answer.append(arr[idx])
-			
+	answer.append(arr[idx+1])
+	return answer
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzIwOTM4NF19
+eyJoaXN0b3J5IjpbLTExNTE4ODk3ODddfQ==
 -->
