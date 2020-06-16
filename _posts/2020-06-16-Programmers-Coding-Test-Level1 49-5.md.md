@@ -59,6 +59,7 @@ def solution(a, b):
 def getDayName(a,b):
     months = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     days = ['FRI', 'SAT', 'SUN', 'MON', 'TUE', 'WED', 'THU']
+    # 2016년 1월 1일은 금요일이다.
     return days[(sum(months[:a-1])+b-1)%7]    
 ```
 
@@ -77,5 +78,5 @@ def getDayName(a,b):
 ***
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjgxNjUxMCwtNzA4MzYxNTQzXX0=
+eyJoaXN0b3J5IjpbNDcyMzg0MDY4LC03MDgzNjE1NDNdfQ==
 -->
