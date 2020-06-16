@@ -130,11 +130,16 @@ map(function, iterable)
 [2, 4, 6, 8]
 ```
 ```python
-
+>>> numbers = (1, 2, 3, 4)
+>>> result = map(lambda x: x+x, numbers)
+>>> result
+<map object at 0x0000026C970C8988>
+>>> list(result)
+[2, 4, 6, 8]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzM3NjA4MTcsLTExMzYxMDA0ODIsMT
-Y5NTc3NjgzNiwtMTkyMzIwNDIxOSwtOTAwMDMwMTA3LC0xOTA2
-MzkwODk1XX0=
+eyJoaXN0b3J5IjpbNjU2Njg5MTEyLC0yMTMzNzYwODE3LC0xMT
+M2MTAwNDgyLDE2OTU3NzY4MzYsLTE5MjMyMDQyMTksLTkwMDAz
+MDEwNywtMTkwNjM5MDg5NV19
 -->
