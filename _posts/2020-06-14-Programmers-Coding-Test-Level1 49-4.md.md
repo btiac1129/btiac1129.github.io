@@ -87,10 +87,12 @@ def solution(array, commands):
 
 ### lambda 함수
 
-**Small anonymous functions** can be created with the lambda keyword. This function returns the sum of its two arguments: `lambda a, b: a+b`. Lambda functions can be used **wherever function objects are required**. They are syntactically restricted to **a single expression**. Semantically, they are just syntactic sugar for a normal function definition. Like nested function definitions, lambda functions can reference variables from the containing scope:
+**Small anonymous functions** can be created with the lambda keyword. This function returns the sum of its two arguments: `lambda a, b: a+b`. Lambda functions can be used **wherever function objects are required**. They are syntactically restricted to **a single expression**. Semantically, they are just syntactic sugar for **a normal function definition**. Like nested function definitions, lambda functions **can reference variables from the containing scope**:
+```python
+
 
 ### map 함수
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3MTMxMzcsLTkwMDAzMDEwNywtMTkwNj
-M5MDg5NV19
+eyJoaXN0b3J5IjpbLTEwMjg0NDA3MDcsLTkwMDAzMDEwNywtMT
+kwNjM5MDg5NV19
 -->
