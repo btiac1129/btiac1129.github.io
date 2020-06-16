@@ -56,10 +56,23 @@ def solution(a, b):
 
 ### 풀이 【1】
 ```python
-
+def getDayName(a,b):
+    months = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    days = ['FRI', 'SAT', 'SUN', 'MON', 'TUE', 'WED', 'THU']
+    return days[(sum(months[:a-1])+b-1)%7]    
 ```
 
-### 풀이 ㄴ
+### 풀이 【2】
+```python
+import datetime
+
+def getDayName(a,b):
+    t = 'MON TUE WED THU FRI SAT SUN'.split()
+    return t[datetime.datetime(2016, a, b).weekday()]
+```
+
+***
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjI3MTM3NSwtNzA4MzYxNTQzXX0=
+eyJoaXN0b3J5IjpbMTE3ODkxNDc5OCwtNzA4MzYxNTQzXX0=
 -->
