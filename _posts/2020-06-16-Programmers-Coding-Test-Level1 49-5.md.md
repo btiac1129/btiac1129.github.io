@@ -64,16 +64,18 @@ def getDayName(a,b):
 
 ### 풀이 【2】
 ```python
-# 내가 푼 것처럼 datetime 라이브러리를 이용해서 풀었지만, 함수를 더 잘 
+# 내가 푼 것처럼 datetime 라이브러리를 이용해서 풀었지만, 함수를 더 잘 활용한 모습.
 import datetime
 
 def getDayName(a,b):
     t = 'MON TUE WED THU FRI SAT SUN'.split()
+    # ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'] 값이 t에 저장된다.
     return t[datetime.datetime(2016, a, b).weekday()]
+    # 마침, weekday() 함수는 0 부터 월요일이다.
 ```
 
 ***
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjE3NDg3MjQsLTcwODM2MTU0M119
+eyJoaXN0b3J5IjpbLTUwNjgxNjUxMCwtNzA4MzYxNTQzXX0=
 -->
