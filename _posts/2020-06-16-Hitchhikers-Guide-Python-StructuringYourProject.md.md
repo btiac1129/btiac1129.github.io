@@ -8,6 +8,9 @@ use_math: true
 
 **_Description_ : 【파이썬을 여행하는 히치하이커를 위한 안내서】 : Writing Great Python Code 읽고 내용 요약하기**
 
+[출처][1]
+[1] [https://python-guide-kr.readthedocs.io/ko/latest/](https://python-guide-kr.readthedocs.io/ko/latest/)]
+
 [프로젝트 구성하기](#Structuring-Your-Project)
 * [저장소의 구조](#Structure-of-the-Repository) 
 	* [중요합니다.](#It's-Important)
@@ -33,5 +36,5 @@ use_math: true
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjcxMTA4OCw4NTc2NTk4ODBdfQ==
+eyJoaXN0b3J5IjpbLTE4MTk2NjY0NCw4NTc2NTk4ODBdfQ==
 -->
