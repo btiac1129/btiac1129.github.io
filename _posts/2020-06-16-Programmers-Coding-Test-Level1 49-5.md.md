@@ -64,6 +64,7 @@ def getDayName(a,b):
 
 ### 풀이 【2】
 ```python
+# 내가 푼 것처럼 datetime 라이브러리를 이용해서 풀었지만, 함수를 더 잘 
 import datetime
 
 def getDayName(a,b):
@@ -74,5 +75,5 @@ def getDayName(a,b):
 ***
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODkxNDc5OCwtNzA4MzYxNTQzXX0=
+eyJoaXN0b3J5IjpbLTIwMjE3NDg3MjQsLTcwODM2MTU0M119
 -->
