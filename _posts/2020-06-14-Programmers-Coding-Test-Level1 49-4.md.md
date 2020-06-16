@@ -119,6 +119,7 @@ map(function, iterable)
 #function : It is a function to which map passes each element of given iterable.
 #iterable : It is a iterable which is to be mapped.
 ```
+
 ```python
 >>> def addition(n):
 		return n + n
@@ -129,6 +130,7 @@ map(function, iterable)
 >>> list(result)
 [2, 4, 6, 8]
 ```
+
 ```python
 >>> numbers = (1, 2, 3, 4)
 >>> result = map(lambda x: x+x, numbers)
@@ -148,7 +150,7 @@ map(function, iterable)
 [['s', 'a', 't'], ['b', 'a', 't'], ['c', 'a', 't'], ['m', 'a', 't']]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzUzMDg4MTYsLTIxMzM3NjA4MTcsLT
-ExMzYxMDA0ODIsMTY5NTc3NjgzNiwtMTkyMzIwNDIxOSwtOTAw
-MDMwMTA3LC0xOTA2MzkwODk1XX0=
+eyJoaXN0b3J5IjpbMTExMTMzMzE2OCwtMTU3NTMwODgxNiwtMj
+EzMzc2MDgxNywtMTEzNjEwMDQ4MiwxNjk1Nzc2ODM2LC0xOTIz
+MjA0MjE5LC05MDAwMzAxMDcsLTE5MDYzOTA4OTVdfQ==
 -->
