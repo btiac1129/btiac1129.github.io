@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[파이썬을 여행하는 히치하이커를 위한 안내서] Writing Great Python Code"
+title:  "[파이썬을 여행하는 히치하이커를 위한 안내서] Writing Great Python Code 요약"
 date:   2020-06-16 22:20:34 
 categories: Python Project-Structure
 use_math: true
@@ -33,5 +33,5 @@ use_math: true
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk5MDExNzksODU3NjU5ODgwXX0=
+eyJoaXN0b3J5IjpbMTMzNjcxMTA4OCw4NTc2NTk4ODBdfQ==
 -->
