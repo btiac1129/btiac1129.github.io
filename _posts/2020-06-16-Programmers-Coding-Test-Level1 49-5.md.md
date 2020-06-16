@@ -27,6 +27,30 @@ use_math: true
 
 -   2016년은 윤년입니다.
 -   2016년 a월 b일은 실제로 있는 날입니다. (13월 26일이나 2월 45일같은 날짜는 주어지지 않습니다)
+
+***
+
+## 나의 풀이 <a id="my-solution"></a>
+```python
+import datetime
+DAY = {
+    6: 'SUN',
+    0: 'MON',
+    1: 'TUE',
+    2: 'WED',
+    3: 'THU',
+    4: 'FRI',
+    5: 'SAT'
+}
+def solution(a, b):
+    dt = datetime.datetime(2016, a, b)
+    for d in DAY:
+        if dt.weekday() == d:
+            answer = DAY[d]
+    return answer
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODM2MTU0M119
+eyJoaXN0b3J5IjpbLTkxOTY3MDAwNywtNzA4MzYxNTQzXX0=
 -->
