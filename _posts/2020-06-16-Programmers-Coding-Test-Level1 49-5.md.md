@@ -27,6 +27,12 @@ use_math: true
 -   2016년은 윤년입니다.
 -   2016년 a월 b일은 실제로 있는 날입니다. (13월 26일이나 2월 45일같은 날짜는 주어지지 않습니다)
 
+### 입출력 예
+
+| a | b | result |
+| - | - | ------ |
+| 5 | 24 | 'TUE' |
+
 ***
 
 ## 나의 풀이 <a id="my-solution"></a>
@@ -57,7 +63,7 @@ def solution(a, b):
 ```python
 def getDayName(a,b):
     months = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-    days = ['FRI', 'SAT', 'SUN', 'MON', 'TUE', 'WED', 'THU']
+    days = ['FRI', 'SAT', 'SUN', 'MON', 'TUE', 'WED', 'THU']|
     # 2016년 1월 1일은 금요일이다.
     return days[(sum(months[:a-1])+b-1)%7]    
 ```
