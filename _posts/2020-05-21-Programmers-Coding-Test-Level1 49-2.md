@@ -2,7 +2,7 @@
 layout: post
 title:  "[코딩 테스트] 프로그래머스 코딩 테스트 연습 level 1. 체육복"
 date:   2020-05-21 18:59
-categories: Python Coding-test Programmers
+categories: Python Coding-test Programmers Greedy-Algorithm
 use_math: true
 ---
 
