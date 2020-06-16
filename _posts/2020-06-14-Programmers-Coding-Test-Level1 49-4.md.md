@@ -92,15 +92,19 @@ def solution(array, commands):
 >>> def make_incrementor(n):
 		return lambda x: x + n
 >>> f = make_incrementor(42)
->>>
+>>> f
+<function make_incrementor.<locals>.<lambda> at 0x0000026C970DF168>
+>>> type(f)
+<class 'function'>
 >>> f(0)
 42
 >>> f(1)
 43
 ```
 
+The above example uses a lambda expression **to return a function. Another use is to pass a small function as an argument.
 ### map 함수
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NjQ5MDYzOSwtMTkyMzIwNDIxOSwtOT
-AwMDMwMTA3LC0xOTA2MzkwODk1XX0=
+eyJoaXN0b3J5IjpbLTIwNjcyODM1NjUsLTE5MjMyMDQyMTksLT
+kwMDAzMDEwNywtMTkwNjM5MDg5NV19
 -->
