@@ -2,7 +2,7 @@
 layout: post
 title:  "[코딩 테스트] 프로그래머스 코딩 테스트 연습 level 1. 완주하지 못한 선수"
 date:   2020-05-15 09:14:36 
-categories: Python Coding-test Programmers
+categories: Python Coding-test Programmers Hash
 use_math: true
 ---
 
@@ -42,9 +42,9 @@ __participant__
 
 | participant | completion | return |
 | :---------- | :--------- | :----- |
-| ["leo", "kiki", "eden"] | ["eden", "kiki"] | "leo" |
-| ["marina", "josipa", "nikola", "vinko", "fillipa"] | ["josipa", "filipa", "marina", "nikola"] | "vinko" |
-| ["mislav", "stanko", "mislav", "ana"] | ["stanko", "ana", "mislav"] | "mislav" |
+| `["leo", "kiki", "eden"]` | `["eden", "kiki"]` | `"leo"` |
+| `["marina", "josipa", "nikola", "vinko", "fillipa"]` | `["josipa", "filipa", "marina", "nikola"]` | `"vinko"` |
+| `["mislav", "stanko", "mislav", "ana"]` | `["stanko", "ana", "mislav"]` | `"mislav"` |
 
 ***
 
@@ -152,3 +152,6 @@ Counter({'bacon': 1, 'ham': 1})
 
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE1MjU2MDQ1MjVdfQ==
+-->
