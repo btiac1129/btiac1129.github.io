@@ -66,10 +66,12 @@ def solution(arr):
         if a[-1:] == [i]: continue
         # continue 사용을 보면서 내가 너무 어렵게 생각했었다는 걸 알게 되었다. 
         a.append(i)
-        # if문 조건 안에 continue 문이 있고, 그 바깥에 append 함수가 있으므로 
+        # ▲
     return a
 ```
+
+▲ `if`문 조건 안에 `continue`문이 있고, 그 바깥에 append 함수가 있으므로 똑같은 수일 때는 반복문 조건을 수행해서 arr 인덱스가 하나 커지고, 똑같은 수가 아닐 때 정답 배열에 그 수를 추가하는 순리적인 풀이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTYwMjYxNTEsMTU1MDY4NDc4MSwxNz
-g1MTY2MjM4XX0=
+eyJoaXN0b3J5IjpbNDE5MTUzNzAwLDE1NTA2ODQ3ODEsMTc4NT
+E2NjIzOF19
 -->
