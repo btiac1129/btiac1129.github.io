@@ -64,9 +64,12 @@ def solution(arr):
     a = []
     for i in arr:
         if a[-1:] == [i]: continue
+        # continue 사용을 보면서 내가 너무 어렵게 생각했었다는 걸 알게 되었다. 
         a.append(i)
+        # if문 조건 안에 continue 문이 있고, 그 바깥에 append 함수가 있으므로 
     return a
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDY4NDc4MSwxNzg1MTY2MjM4XX0=
+eyJoaXN0b3J5IjpbLTExOTYwMjYxNTEsMTU1MDY4NDc4MSwxNz
+g1MTY2MjM4XX0=
 -->
