@@ -112,8 +112,13 @@ The above example uses a lambda expression **to return a function**. Another use
 
 ### map 함수
 
-Wraps `map()` in a `list` call. It also changes map(None, x) to list(x). Using `from future_builtins import map` disables this fixer.
+* Wraps `map()` in a `list` call. It also changes map(None, x) to list(x). Using `from future_builtins import map` disables this fixer.
+*  map() function returns a map object(which is an iterator) of the results after applying the given function to each item of a given iterable (list, tuple etc.)
+```python```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzYxMDA0ODIsMTY5NTc3NjgzNiwtMT
-kyMzIwNDIxOSwtOTAwMDMwMTA3LC0xOTA2MzkwODk1XX0=
+eyJoaXN0b3J5IjpbNDk1OTIyMDUwLC0xMTM2MTAwNDgyLDE2OT
+U3NzY4MzYsLTE5MjMyMDQyMTksLTkwMDAzMDEwNywtMTkwNjM5
+MDg5NV19
 -->
