@@ -137,9 +137,11 @@ map(function, iterable)
 >>> list(result)
 [2, 4, 6, 8]
 ```
+```python
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2Njg5MTEyLC0yMTMzNzYwODE3LC0xMT
-M2MTAwNDgyLDE2OTU3NzY4MzYsLTE5MjMyMDQyMTksLTkwMDAz
-MDEwNywtMTkwNjM5MDg5NV19
+eyJoaXN0b3J5IjpbLTc1ODMwNTQ0OCwtMjEzMzc2MDgxNywtMT
+EzNjEwMDQ4MiwxNjk1Nzc2ODM2LC0xOTIzMjA0MjE5LC05MDAw
+MzAxMDcsLTE5MDYzOTA4OTVdfQ==
 -->
