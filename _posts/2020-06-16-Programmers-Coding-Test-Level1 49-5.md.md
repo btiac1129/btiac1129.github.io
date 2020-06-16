@@ -99,8 +99,12 @@ If _sep_ is given, consecutive delimiters are not grouped together and **are dee
 ['1', '2', '', '3']
 ```
 
-**If _sep_ is not specified or is None**, a different splitting algorithm is applied: runs of **consecutive whitespace are regarded as a single separator**, and the result will contain no empty strings at the start or end if the string has leading or trailing whitespace. Consequent
+**If _sep_ is not specified or is None**, a different splitting algorithm is applied: runs of **consecutive whitespace are regarded as a single separator**, and the result will contain no empty strings at the start or end if the string has leading or trailing whitespace. Consequently, splitting an empty string or a string consisting of just whitespace with a `None` separator returns `[]`.
+
+```python
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5Mjg3MDIxMiwtNTcwMDM4ODEsLTcwOD
+eyJoaXN0b3J5IjpbLTUwMTY3ODg2MywtNTcwMDM4ODEsLTcwOD
 M2MTU0M119
 -->
