@@ -45,11 +45,16 @@ def solution(arr):
 	for idx in range(len(arr)-1):
 		if arr[idx] == arr[idx + 1]:
 			arr[idx] = -1
+			# 연속된 수들 중 앞쪽 것을 제거하는 방식이다.
 		else:
 			answer.append(arr[idx])
+			# 연속된 수들 중 맨 마지막 수를 answer 리스트에 넣는다.
 	answer.append(arr[idx+1])
+	# 마지막 반복이 끝나고 나서 포함되지 않고 남은 수 하나를 마저 넣는다.
 	return answer
 ```
+
+***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTE4ODk3ODddfQ==
+eyJoaXN0b3J5IjpbLTE1OTE3NzYxNzJdfQ==
 -->
