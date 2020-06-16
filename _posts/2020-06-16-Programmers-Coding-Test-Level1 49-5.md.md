@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[코딩 테스트] 프로그래머스 코딩 테스트 연습 level 1. K번째 수"
-date:   2020-06-14 21:51:34 
-categories: Python Coding-test Programmers Sort
+title:  "[코딩 테스트] 프로그래머스 코딩 테스트 연습 level 1. 2016년"
+date:   2020-06-16 15:29:34 
+categories: Python Coding-test Programmers
 use_math: true
 ---
 
