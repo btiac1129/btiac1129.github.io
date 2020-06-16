@@ -2,7 +2,7 @@
 layout: post
 title:  "[코딩 테스트] 프로그래머스 스킬 체크 level 1"
 date:   2020-05-11 09:33:36 
-categories: Python Coding-test Programmers
+categories: Python Coding-test Programmers Skill-Check
 use_math: true
 ---
 
