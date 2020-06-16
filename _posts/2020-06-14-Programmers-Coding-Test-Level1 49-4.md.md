@@ -102,9 +102,16 @@ def solution(array, commands):
 43
 ```
 
-The above example uses a lambda expression **to return a function**. Another use is **to pass a small function as an argument.
+The above example uses a lambda expression **to return a function**. Another use is **to pass a small function as an argument**.
+```python
+>>> pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
+>>> pairs.sort(key=lambda pair: pair[1])
+>>> pairs
+[(4, 'four'), (1, 'one'), (3, 'three'), (2, 'two')]
+```
+
 ### map 함수
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODk1OTMwNjksLTE5MjMyMDQyMTksLT
-kwMDAzMDEwNywtMTkwNjM5MDg5NV19
+eyJoaXN0b3J5IjpbMTY5NTc3NjgzNiwtMTkyMzIwNDIxOSwtOT
+AwMDMwMTA3LC0xOTA2MzkwODk1XX0=
 -->
