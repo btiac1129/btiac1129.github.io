@@ -6,9 +6,8 @@ categories: Python Project-Structure
 use_math: true
 ---
 
-**_Description_ : 【파이썬을 여행하는 히치하이커를 위한 안내서】 : Writing Great Python Code 읽고 내용 요약하기**
+**_Description_ : [파이썬을 여행하는 히치하이커를 위한 안내서][1] : Writing Great Python Code 읽고 내용 요약하기**
 
-[출처][1]
 [1]: https://python-guide-kr.readthedocs.io/ko/latest/](https://python-guide-kr.readthedocs.io/ko/latest/)
 
 [프로젝트 구성하기](#Structuring-Your-Project)
@@ -36,5 +35,5 @@ use_math: true
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzYxMzMzMTAsODU3NjU5ODgwXX0=
+eyJoaXN0b3J5IjpbLTE1MzU5NTc3OTUsODU3NjU5ODgwXX0=
 -->
