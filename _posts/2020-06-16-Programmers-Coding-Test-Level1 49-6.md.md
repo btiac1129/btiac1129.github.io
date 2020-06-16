@@ -55,6 +55,10 @@ def solution(arr):
 ```
 
 ***
+
+## 다른 사람들의 풀이 <a id='problem-solution'></a>
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTE3NzYxNzJdfQ==
+eyJoaXN0b3J5IjpbMTc4NTE2NjIzOF19
 -->
