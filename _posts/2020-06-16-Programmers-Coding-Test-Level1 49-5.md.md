@@ -86,9 +86,9 @@ def getDayName(a,b):
 ## 새로 배운 내용 <a id='deep'></a>
 
 ### str.split(sep=None, maxsplit=-1)
-Return a list of the words in the string, using _sep_ as the delimiter string. If _maxsplit_ is given, at most max
+**Return a list of the words** in the string, using _sep_ as the delimiter string. If _maxsplit_ is given, at most _maxsplit_ splits are done (thus, the list will have at most `maxsplit + 1` elements). If 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4OTcyNDgzLC01NzAwMzg4MSwtNzA4Mz
-YxNTQzXX0=
+eyJoaXN0b3J5IjpbLTQ4Njk4OTEyOCwtNTcwMDM4ODEsLTcwOD
+M2MTU0M119
 -->
