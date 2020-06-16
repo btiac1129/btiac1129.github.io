@@ -102,9 +102,9 @@ def solution(array, commands):
 43
 ```
 
-The above example uses a lambda expression **to return a function. Another use is to pass a small function as an argument.
+The above example uses a lambda expression **to return a function**. Another use is **to pass a small function as an argument.
 ### map 함수
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjcyODM1NjUsLTE5MjMyMDQyMTksLT
+eyJoaXN0b3J5IjpbLTE0ODk1OTMwNjksLTE5MjMyMDQyMTksLT
 kwMDAzMDEwNywtMTkwNjM5MDg5NV19
 -->
