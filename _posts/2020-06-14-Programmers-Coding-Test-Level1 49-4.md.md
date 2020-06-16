@@ -87,10 +87,10 @@ def solution(array, commands):
 
 ### lambda 함수
 
-**Small anonymous functions** can be created with the lambda keyword. This function returns the sum of its two arguments: `lambda a, b: a+b`. Lambda functons can be used wherever function objects are required. They
+**Small anonymous functions** can be created with the lambda keyword. This function returns the sum of its two arguments: `lambda a, b: a+b`. Lambda functions can be used wherever function objects are required. They are syntactically restricted to a single expression.
 
 ### map 함수
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDc1MjY1ODQsLTkwMDAzMDEwNywtMT
-kwNjM5MDg5NV19
+eyJoaXN0b3J5IjpbODI0OTkyMzY2LC05MDAwMzAxMDcsLTE5MD
+YzOTA4OTVdfQ==
 -->
