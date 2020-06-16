@@ -99,8 +99,8 @@ If _sep_ is given, consecutive delimiters are not grouped together and **are dee
 ['1', '2', '', '3']
 ```
 
-ㅑ
+If _sep_ is not specified or is None, a different splitting algorithm is applied: runs of consecutive whitespace are regarded as a single separator, and the result will contain no empty strings at the start or end if the string has leading or trailing whitespace.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTM4NDA2OSwtNTcwMDM4ODEsLTcwOD
-M2MTU0M119
+eyJoaXN0b3J5IjpbLTEzMDQ2NjkwMTksLTU3MDAzODgxLC03MD
+gzNjE1NDNdfQ==
 -->
