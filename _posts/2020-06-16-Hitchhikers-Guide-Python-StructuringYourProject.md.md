@@ -97,18 +97,22 @@ tests/test_advanced.py
 
 #### 【4】 Requirements 파일 <a id="Requirements-File"></a>
 
-* pip requirements file : 반드시 저장소의 최상위 폴더에 두어야 한다.
-* 이 파일은 프로젝트에 기여하기 위한 작업들, 즉 테스트, 빌드, 문서 생성을 위해 필요한 의존성에 대해 명시해야 한다. 
-* 프로젝트에 개발 의존성ㅇ  
-
 | Location | Purpose |
 | -------- | ------- |
 | `./requirements.txt` | Development dependencies |
 
+* pip requirements file : 반드시 저장소의 최상위 폴더에 두어야 한다.
+* 이 파일은 프로젝트에 기여하기 위한 작업들, 즉 테스트, 빌드, 문서 생성을 위해 필요한 의존성에 대해 명시해야 한다. 
+* 반면에 프로젝트에 개발 의존성이 없거나, `setup.py`를 통해 개발 환경 설치를 하는 편이 좋다면 이 파일은 불필요하다.  
 
 
+#### 【5】 문서 <a id="Documentation"></a>
+
+| Location | Purpose |
+| ------ | --- |
+ 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTkwNTc0NjUsLTMxODE0MDc3OCw4Mz
+eyJoaXN0b3J5IjpbLTE4OTA0MDA1NDIsLTMxODE0MDc3OCw4Mz
 Y2NzU1NDAsLTE1MzU5NTc3OTUsODU3NjU5ODgwXX0=
 -->
