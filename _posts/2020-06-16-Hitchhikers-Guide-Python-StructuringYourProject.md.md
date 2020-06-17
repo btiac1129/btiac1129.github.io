@@ -115,8 +115,7 @@ tests/test_advanced.py
 
 
 #### 테스트 도구 <a id="Test-Suite"></a>
-For advice on writing your tests, see [Testing Your Code][2]
-[2]: https://docs.python-guide.org/writing/tests/
+For advice on writing your tests, see [Testing Your Code](#https://docs.python-guide.org/writing/tests/)
 
 | Location | Purpose |
 | -------- | ------- |
@@ -133,7 +132,7 @@ tests/test_advanced.py
 * 테스트를 수행하는 데는 몇 가지 방법이 있다. 
 	* `site-packages`에 패키지를 설치하게 한다. → 계속 변경되고 있는 코드를 테스트하기 위해 `setup.py`를 실행해야 한다면, 변경 중인 코드의 각 시점마다 독립된 환경 설정을 해야 한다.
 	* (★) 패키지 경로를 잘 찾기 위해 간단하지만 명확한 경로를 사용한다.    
-* [자세히 알아보기][https://python-guide-kr.readthedocs.io/ko/latest/writing/structure.html#test-suite]
+* [자세히 알아보기](#https://python-guide-kr.readthedocs.io/ko/latest/writing/structure.html#test-suite)
 
 
 ### Makefile <a id="Makefile"></a>
@@ -176,7 +175,7 @@ samplesite/sampleapp/models.py
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjQyNDY0NTIsLTg0NTUwNzAzLC0zMT
-gxNDA3NzgsODM2Njc1NTQwLC0xNTM1OTU3Nzk1LDg1NzY1OTg4
-MF19
+eyJoaXN0b3J5IjpbMTQwMzgzMjM2NiwtODQ1NTA3MDMsLTMxOD
+E0MDc3OCw4MzY2NzU1NDAsLTE1MzU5NTc3OTUsODU3NjU5ODgw
+XX0=
 -->
