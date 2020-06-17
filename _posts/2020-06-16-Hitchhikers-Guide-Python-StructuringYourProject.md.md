@@ -71,10 +71,13 @@ tests/test_advanced.py
 
 | Location | Purpose |
 | -------- | ------- |
-| `./LICENSE` | Lawye
+| `./LICENSE` | Lawyering up |
+
+* 라이선스 문서 전문과 저작권이 반드시 파일에 들어가야 한다. 
+* 어떤 라이선스를 써야할 지 모르겠다면 [choosealicense.com]을 확인하자.
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4Mjc5MzM0MSw4MzY2NzU1NDAsLTE1Mz
+eyJoaXN0b3J5IjpbMjEwMjA1MjY5OCw4MzY2NzU1NDAsLTE1Mz
 U5NTc3OTUsODU3NjU5ODgwXX0=
 -->
