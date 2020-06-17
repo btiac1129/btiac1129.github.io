@@ -17,7 +17,7 @@ use_math: true
 	* [【1】 실제 모듈](#Actual-Module)
 	* [【2】 라이선스](#License)
 	* [【3】 Setup.py](#Set-Up)
-	* [【4】 Requirements 파일](#Requirements File)
+	* [【4】 Requirements 파일](#Requirements-File)
 	* [【5】 문서](#Documentation)
 	* [【6】 테스트 도구](#Test-Suite)
 	* [Makefile](#Makefile)
@@ -175,7 +175,7 @@ samplesite/sampleapp/models.py
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMzgzMjM2NiwtODQ1NTA3MDMsLTMxOD
-E0MDc3OCw4MzY2NzU1NDAsLTE1MzU5NTc3OTUsODU3NjU5ODgw
-XX0=
+eyJoaXN0b3J5IjpbOTk3MTQzNzM5LC04NDU1MDcwMywtMzE4MT
+QwNzc4LDgzNjY3NTU0MCwtMTUzNTk1Nzc5NSw4NTc2NTk4ODBd
+fQ==
 -->
