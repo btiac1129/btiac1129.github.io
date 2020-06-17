@@ -74,6 +74,7 @@ tests/test_advanced.py
 * `./sample.py` : 모듈 안에 단 하나의 파일밖에 없다면, 저장소의 최상위 폴더에 바로 두어도 좋다. 
 * 라이브러리를 애매한 소스나 파이썬 하위 디렉토리에 두지 않는다.
 
+
 #### 【2】 라이선스 <a id="License"></a>
 
 | Location | Purpose |
@@ -84,6 +85,7 @@ tests/test_advanced.py
 * 어떤 라이선스를 써야할 지 모르겠다면 [choosealicense.com]을 확인하자.
 * 라이선스 없이 코드가 배포되어도 상관 없을 수 있지만, 그럴 경우 사람들이 당신의 코드를 사용하기 꺼릴 것이다.
 
+
 #### 【3】 Setup.py <a id="Set-Up"></a>
 
 | Location | Purpose |
@@ -92,7 +94,10 @@ tests/test_advanced.py
 
 모듈 패키지가 저장소의 최상위 폴더에 있다면, `Setup.py`도 최상위 폴더에 두어야 한다. 
 
+
 #### 【4】 Requirements 파일 <a id="Requirements-File"></a>
+
+`pip requirements.txt
 
 | Location | Purpose |
 | -------- | ------- |
@@ -102,6 +107,6 @@ tests/test_advanced.py
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTE4OTY4OSw4MzY2NzU1NDAsLTE1Mz
+eyJoaXN0b3J5IjpbLTMxODE0MDc3OCw4MzY2NzU1NDAsLTE1Mz
 U5NTc3OTUsODU3NjU5ODgwXX0=
 -->
