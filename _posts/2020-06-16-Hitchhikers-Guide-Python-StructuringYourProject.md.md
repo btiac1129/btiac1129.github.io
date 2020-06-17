@@ -14,8 +14,9 @@ use_math: true
 * [저장소의 구조](#Structure-of-the-Repository) 
 	* [중요합니다.](#It's-Important)
 	* [샘플 저장소](#Sample-Repository)
-	* [실제 모듈](#Actual-Module)
-	* [라이선스](#License)
+	* [【1】 실제 모듈](#Actual-Module)
+	* [【2】 라이선스](#License)
+	* [【3】 Setup.py](#S
 * [코드 구성이 핵심](#Structure-of-Code-is-Key)
 
 ***
@@ -76,11 +77,12 @@ tests/test_advanced.py
 
 * 라이선스 문서 전문과 저작권이 반드시 파일에 들어가야 한다. 
 * 어떤 라이선스를 써야할 지 모르겠다면 [choosealicense.com]을 확인하자.
-* 라이선스 없이 코드가 배포되어도 상관 없을 수 이
+* 라이선스 없이 코드가 배포되어도 상관 없을 수 있지만, 그럴 경우 사람들이 당신의 코드를 사용하기 꺼릴 것이다.
+
 
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDE0NDA3Miw4MzY2NzU1NDAsLTE1Mz
+eyJoaXN0b3J5IjpbLTc0NzQ0ODM1MSw4MzY2NzU1NDAsLTE1Mz
 U5NTc3OTUsODU3NjU5ODgwXX0=
 -->
