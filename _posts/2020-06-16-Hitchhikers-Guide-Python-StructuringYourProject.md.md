@@ -131,7 +131,9 @@ tests/test_advanced.py
 ```
 →  테스트 도구가 커지면 이런 폴더를 만들어서 테스트 파일을 옮기면 된다. 
 
-* 물론 
+* 테스트를 수행하는 데는 몇 가지 방법이 있다. 
+	* `site-packages`에 패키지를 설치하게 한다.
+	* (★ 패키지 경로를 잘 찾기 위해 간단하지만 명확한 경로를 사용한다.  
 
 
  
@@ -139,6 +141,6 @@ tests/test_advanced.py
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjcwMDEyNywtMzE4MTQwNzc4LDgzNj
+eyJoaXN0b3J5IjpbLTEyODk2Mzc3NCwtMzE4MTQwNzc4LDgzNj
 Y3NTU0MCwtMTUzNTk1Nzc5NSw4NTc2NTk4ODBdfQ==
 -->
