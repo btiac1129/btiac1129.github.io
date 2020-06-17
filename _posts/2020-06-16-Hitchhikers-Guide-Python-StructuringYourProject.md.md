@@ -47,7 +47,7 @@ use_math: true
 당신과 동료들은 어느새 저장소의 구석구석에 이미 친숙해져있을 것이다. 그래도 모양새는 중요하다.
 
 #### 샘플 저장소 <a id="Sample-Repository"></a>
-이 저장소는 [Github][https://github.com/navdeep-G/samplemod]에서 볼 수 있다.
+이 저장소는 [Github](#https://github.com/navdeep-G/samplemod)에서 볼 수 있다.
 
 ```
 README.rst
@@ -85,7 +85,7 @@ tests/test_advanced.py
 * 라이선스 없이 코드가 배포되어도 상관 없을 수 있지만, 그럴 경우 사람들이 당신의 코드를 사용하기 꺼릴 것이다.
 
 
-#### 【3】 Setup.py <a id="Set-Up"></a>
+#### 【3】 `Setup.py`  <a id="Set-Up"></a>
 
 | Location | Purpose |
 | -------- | ------- |
@@ -176,7 +176,7 @@ samplesite/sampleapp/models.py
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjY4OTYwMiwtODQ1NTA3MDMsLTMxOD
-E0MDc3OCw4MzY2NzU1NDAsLTE1MzU5NTc3OTUsODU3NjU5ODgw
-XX0=
+eyJoaXN0b3J5IjpbLTE4NjQyNDY0NTIsLTg0NTUwNzAzLC0zMT
+gxNDA3NzgsODM2Njc1NTQwLC0xNTM1OTU3Nzk1LDg1NzY1OTg4
+MF19
 -->
