@@ -109,10 +109,15 @@ tests/test_advanced.py
 #### 【5】 문서 <a id="Documentation"></a>
 
 | Location | Purpose |
-| ------ | --- |
+| -------- | ------- |
+| `./docs/` | Package reference documentation |
+
+* 다른 경로에 문서를 둘 이유가 없다. 
+
  
+
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTA0MDA1NDIsLTMxODE0MDc3OCw4Mz
-Y2NzU1NDAsLTE1MzU5NTc3OTUsODU3NjU5ODgwXX0=
+eyJoaXN0b3J5IjpbLTcwNzc1MTYzMywtMzE4MTQwNzc4LDgzNj
+Y3NTU0MCwtMTUzNTk1Nzc5NSw4NTc2NTk4ODBdfQ==
 -->
