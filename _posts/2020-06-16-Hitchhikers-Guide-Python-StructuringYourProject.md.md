@@ -118,12 +118,16 @@ tests/test_advanced.py
 #### 테스트 도구 <a id="Test-Suite"></a>
 
 | Location | Purpose |
-| -- | ---- |
+| -------- | ------- |
+| `./test_sample.py` or `./tests` | Package integration and unit tests |
+
+
+
  
  
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk2MDgxOTA4LC0zMTgxNDA3NzgsODM2Nj
-c1NTQwLC0xNTM1OTU3Nzk1LDg1NzY1OTg4MF19
+eyJoaXN0b3J5IjpbLTEyOTg3MDgyNzUsLTMxODE0MDc3OCw4Mz
+Y2NzU1NDAsLTE1MzU5NTc3OTUsODU3NjU5ODgwXX0=
 -->
