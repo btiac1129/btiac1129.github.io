@@ -162,11 +162,22 @@ test:
  
 #### 장고 어플리케이션에 대하여 <a id="Regarding-Django"></a>
 
-* 
+`$ django-admin.py startproject samplesite .` : 이렇게 하자. `.`에 주목하기.
+
+그 결과물이다.
+```
+README.rst
+manage.py
+samplesite/settings.py
+samplesite/wsgi.py
+samplesite/sampleapp/models.py
+```
+
+***
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzNDIyNTgxLC04NDU1MDcwMywtMzE4MT
+eyJoaXN0b3J5IjpbOTU5NDUxMzkyLC04NDU1MDcwMywtMzE4MT
 QwNzc4LDgzNjY3NTU0MCwtMTUzNTk1Nzc5NSw4NTc2NTk4ODBd
 fQ==
 -->
