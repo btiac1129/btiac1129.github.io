@@ -37,8 +37,19 @@ use_math: true
 
 당신과 동료들은 어느새 저장소의 구석구석에 이미 친숙해져있을 것이다. 그래도 모양새는 중요하다.
 
+#### 샘플 저장소 <a id="Sample-Repository"></a>
+이 저장소는 깃헙에서[1] 볼 수 있다.
+[1] 
+```
+README.rst
+LICENSE
+setup.py
+requirements.txt
+
+```
+
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2Njc1NTQwLC0xNTM1OTU3Nzk1LDg1Nz
-Y1OTg4MF19
+eyJoaXN0b3J5IjpbLTE4NjU2MzA0MjIsODM2Njc1NTQwLC0xNT
+M1OTU3Nzk1LDg1NzY1OTg4MF19
 -->
