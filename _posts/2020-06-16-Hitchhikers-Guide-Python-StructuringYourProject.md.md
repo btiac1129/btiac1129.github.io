@@ -137,13 +137,24 @@ tests/test_advanced.py
 * [자세히 알아보기][https://python-guide-kr.readthedocs.io/ko/latest/writing/structure.html#test-suite]
 
 
-### Makefile <a id="Makefile">
+### Makefile <a id="Makefile"></a>
+
+| Location | Purpose |
+| -------- | ------- |
+| `./Makefile` | Generic management tasks |
+
+```
+Sample Makefile:
+
+
+```
+
  
  
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjE5MzgzNzgsLTg0NTUwNzAzLC0zMT
-gxNDA3NzgsODM2Njc1NTQwLC0xNTM1OTU3Nzk1LDg1NzY1OTg4
-MF19
+eyJoaXN0b3J5IjpbLTIyODU3NTg4OSwtODQ1NTA3MDMsLTMxOD
+E0MDc3OCw4MzY2NzU1NDAsLTE1MzU5NTc3OTUsODU3NjU5ODgw
+XX0=
 -->
