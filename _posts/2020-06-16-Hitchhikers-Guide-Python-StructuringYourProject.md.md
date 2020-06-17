@@ -63,10 +63,12 @@ tests/test_advanced.py
 | -------- | ------- |
 | `./sample/` or `./sample.py` | The code of interest |
 
-
+* `./sample/` : 모듈 패키지는 저장소의 핵심이며 숨기지 않는다.
+* `./sample.py` : 모듈 안에 단 하나의 파일밖에 없다면, 저장소의 최상위 폴더에 바로 두어도 좋다. 
+* 라이브러리
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3OTQxNTg0LDgzNjY3NTU0MCwtMTUzNT
-k1Nzc5NSw4NTc2NTk4ODBdfQ==
+eyJoaXN0b3J5IjpbLTIwOTIzMjg1OTksODM2Njc1NTQwLC0xNT
+M1OTU3Nzk1LDg1NzY1OTg4MF19
 -->
