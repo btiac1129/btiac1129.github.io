@@ -88,10 +88,14 @@ tests/test_advanced.py
 
 | Location | Purpose |
 | -------- | ------- |
-| `./setup.py` |  
+| `./setup.py` | Package and distribution management |
+
+모듈 패키지가 저장소의 최상위 폴더에 있다면, `Setup.py`도 최상위 폴더에 두어야 한다. 
+
+#### 【4】 Requirements 파일 <a id="Requirements-File">
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI4MTk2MzIsODM2Njc1NTQwLC0xNT
-M1OTU3Nzk1LDg1NzY1OTg4MF19
+eyJoaXN0b3J5IjpbNDcwNjg3ODgyLDgzNjY3NTU0MCwtMTUzNT
+k1Nzc5NSw4NTc2NTk4ODBdfQ==
 -->
