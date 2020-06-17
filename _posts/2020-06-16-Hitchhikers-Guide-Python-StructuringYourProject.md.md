@@ -21,7 +21,7 @@ use_math: true
 	* [【5】 문서](#Documentation)
 	* [【6】 테스트 도구](#Test-Suite)
 	* [Makefile](#Makefile)
-	* [장고 어플리케이션에 대하여](#Regard 
+	* [장고 어플리케이션에 대하여](#Regarding-Django) 
 * [코드 구성이 핵심](#Structure-of-Code-is-Key)
 
 ***
@@ -84,10 +84,14 @@ tests/test_advanced.py
 * 어떤 라이선스를 써야할 지 모르겠다면 [choosealicense.com]을 확인하자.
 * 라이선스 없이 코드가 배포되어도 상관 없을 수 있지만, 그럴 경우 사람들이 당신의 코드를 사용하기 꺼릴 것이다.
 
+#### 【3】 Setup.py <a id="Set-Up"></a>
 
+| Location | Purpose |
+| -------- | ------- |
+| `./setup.py` |  
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzgxNDc3Myw4MzY2NzU1NDAsLTE1Mz
-U5NTc3OTUsODU3NjU5ODgwXX0=
+eyJoaXN0b3J5IjpbLTE5OTI4MTk2MzIsODM2Njc1NTQwLC0xNT
+M1OTU3Nzk1LDg1NzY1OTg4MF19
 -->
