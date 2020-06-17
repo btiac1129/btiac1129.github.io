@@ -57,7 +57,7 @@ tests/test_basic.py
 tests/test_advanced.py
 ```
 
-#### 실제 모듈 <a id="Actual-Module"></a>
+#### 【1】 실제 모듈 <a id="Actual-Module"></a>
 
 | Location | Purpose | 
 | -------- | ------- |
@@ -65,10 +65,16 @@ tests/test_advanced.py
 
 * `./sample/` : 모듈 패키지는 저장소의 핵심이며 숨기지 않는다.
 * `./sample.py` : 모듈 안에 단 하나의 파일밖에 없다면, 저장소의 최상위 폴더에 바로 두어도 좋다. 
-* 라이브러리
+* 라이브러리를 애매한 소스나 파이썬 하위 디렉토리에 두지 않는다.
+
+#### 【2】 라이선스
+
+| Location | Purpose |
+| -------- | ------- |
+| `./LICENSE` | Lawye
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTIzMjg1OTksODM2Njc1NTQwLC0xNT
-M1OTU3Nzk1LDg1NzY1OTg4MF19
+eyJoaXN0b3J5IjpbMTI4Mjc5MzM0MSw4MzY2NzU1NDAsLTE1Mz
+U5NTc3OTUsODU3NjU5ODgwXX0=
 -->
