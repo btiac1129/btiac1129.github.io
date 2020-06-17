@@ -144,17 +144,26 @@ tests/test_advanced.py
 | `./Makefile` | Generic management tasks |
 
 ```
+================
 Sample Makefile:
+================
 
-
+init:
+	pip install -r requirements.txt
+	
+test:
+	py.test tests
+	
+.PHONY: init test
 ```
 
+다른 관리 작
  
  
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODU3NTg4OSwtODQ1NTA3MDMsLTMxOD
-E0MDc3OCw4MzY2NzU1NDAsLTE1MzU5NTc3OTUsODU3NjU5ODgw
-XX0=
+eyJoaXN0b3J5IjpbLTEyNTUxNDM0ODcsLTg0NTUwNzAzLC0zMT
+gxNDA3NzgsODM2Njc1NTQwLC0xNTM1OTU3Nzk1LDg1NzY1OTg4
+MF19
 -->
