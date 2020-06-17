@@ -33,11 +33,12 @@ use_math: true
 
 #### 중요합니다. <a id="It's-Important"></a>
 
-**코딩 스타일, API 디자인, 자동화 등** 건강한 개발 사이클에 필수적인 요소들이 있다. **저장소의 구조**도 **프로젝트의 아키텍처**에 결정적인 요소이다. \저장소의 구석구석에 이미 친숙해져있을 것이다.
+**코딩 스타일, API 디자인, 자동화 등** 건강한 개발 사이클에 필수적인 요소들이 있다. **저장소의 구조**도 **프로젝트의 아키텍처**에 결정적인 요소이다. 
 
+당신과 동료들은 어느새 저장소의 구석구석에 이미 친숙해져있을 것이다. 그래도 모양새는 중요하다.
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU0MjAwMDYsLTE1MzU5NTc3OTUsODU3Nj
-U5ODgwXX0=
+eyJoaXN0b3J5IjpbODM2Njc1NTQwLC0xNTM1OTU3Nzk1LDg1Nz
+Y1OTg4MF19
 -->
