@@ -13,6 +13,7 @@ use_math: true
 [프로젝트 구성하기](#Structuring-Your-Project)
 * [저장소의 구조](#Structure-of-the-Repository) 
 	* [중요합니다.](#It's-Important)
+	* [샘플 저장소](#Sample-Repository)
 * [코드 구성이 핵심](#Structure-of-Code-is-Key)
 
 ***
@@ -38,18 +39,25 @@ use_math: true
 당신과 동료들은 어느새 저장소의 구석구석에 이미 친숙해져있을 것이다. 그래도 모양새는 중요하다.
 
 #### 샘플 저장소 <a id="Sample-Repository"></a>
-이 저장소는 깃헙에서[1] 볼 수 있다.
-[1] 
+이 저장소는 [Github][1]에서 볼 수 있다.
+[1]: https://github.com/navdeep-G/samplemod
+
 ```
 README.rst
 LICENSE
 setup.py
 requirements.txt
-
+sample/__init__.py
+sample/core.py
+sample/helpers.py
+docs/conf.py
+docs/index.rst
+tests/test_basic.py
+tests/test_advanced.py
 ```
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjU2MzA0MjIsODM2Njc1NTQwLC0xNT
-M1OTU3Nzk1LDg1NzY1OTg4MF19
+eyJoaXN0b3J5IjpbMTM3NTkxNzY3Nyw4MzY2NzU1NDAsLTE1Mz
+U5NTc3OTUsODU3NjU5ODgwXX0=
 -->
