@@ -157,13 +157,16 @@ test:
 .PHONY: init test
 ```
 
-다른 관리 작
+다른 관리 작업 스크립트(`manage.py` or `fabfile.py`)들도 Makefile과 마찬가지로 저장소의 최상위 디렉토리에 둔다.
  
  
+#### 장고 어플리케이션에 대하여 <a id="Regarding-Django"></a>
+
+* 
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTUxNDM0ODcsLTg0NTUwNzAzLC0zMT
-gxNDA3NzgsODM2Njc1NTQwLC0xNTM1OTU3Nzk1LDg1NzY1OTg4
-MF19
+eyJoaXN0b3J5IjpbNDQzNDIyNTgxLC04NDU1MDcwMywtMzE4MT
+QwNzc4LDgzNjY3NTU0MCwtMTUzNTk1Nzc5NSw4NTc2NTk4ODBd
+fQ==
 -->
