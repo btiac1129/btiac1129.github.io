@@ -19,7 +19,9 @@ use_math: true
 	* [【3】 Setup.py](#Set-Up)
 	* [【4】 Requirements 파일](#Requirements File)
 	* [【5】 문서](#Documentation)
-	* [ㄴ
+	* [【6】 테스트 도구](#Test-Suite)
+	* [Makefile](#Makefile)
+	* [장고 어플리케이션에 대하여](#Regard 
 * [코드 구성이 핵심](#Structure-of-Code-is-Key)
 
 ***
@@ -86,6 +88,6 @@ tests/test_advanced.py
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMTU3NjY3OSw4MzY2NzU1NDAsLTE1Mz
+eyJoaXN0b3J5IjpbMTQ2NzgxNDc3Myw4MzY2NzU1NDAsLTE1Mz
 U5NTc3OTUsODU3NjU5ODgwXX0=
 -->
