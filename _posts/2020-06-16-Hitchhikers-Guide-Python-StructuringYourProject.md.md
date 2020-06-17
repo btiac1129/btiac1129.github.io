@@ -33,7 +33,10 @@ use_math: true
 
 #### 중요합니다. <a id="It's-Important"></a>
 
+코딩 스타일, API 디자인, 자동화 등 
+
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzU5NTc3OTUsODU3NjU5ODgwXX0=
+eyJoaXN0b3J5IjpbLTEyOTY2ODMzMjQsLTE1MzU5NTc3OTUsOD
+U3NjU5ODgwXX0=
 -->
