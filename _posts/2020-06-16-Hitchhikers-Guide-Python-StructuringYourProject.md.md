@@ -59,10 +59,14 @@ tests/test_advanced.py
 
 #### 실제 모듈 <a id="Actual-Module"></a>
 
-|  Location | 
+| Location | Purpose | 
+| -------- | ------- |
+| `./sample/` or `./sample.py` | The code of interest |
+
+
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxNDY2MjUzLDgzNjY3NTU0MCwtMTUzNT
+eyJoaXN0b3J5IjpbODU3OTQxNTg0LDgzNjY3NTU0MCwtMTUzNT
 k1Nzc5NSw4NTc2NTk4ODBdfQ==
 -->
