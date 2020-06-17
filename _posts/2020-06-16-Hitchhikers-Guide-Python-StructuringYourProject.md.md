@@ -124,7 +124,14 @@ For advice on writing your tests, see [Testing Your Code][2]
 | `./test_sample.py` or `./tests` | Package integration and unit tests |
 
 * `./test_sample.py` : 프로젝트를 시작할 때 보통 이렇게 하나의 파일에 간단한 테스트 도구를 만들 것이다. 
-*  `tests/test_basic.py`
+
+```
+tests/test_basic.py
+tests/test_advanced.py
+```
+→  테스트 도구가 커지면 이런 폴더를 만들어서 테스트 파일을 옮기면 된다. 
+
+* 물론 
 
 
  
@@ -132,6 +139,6 @@ For advice on writing your tests, see [Testing Your Code][2]
 
 ### 코드 구성이 핵심 <a id="Structure-of-Code-is-Key"></a>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc0Mjg4ODU3LC0zMTgxNDA3NzgsODM2Nj
-c1NTQwLC0xNTM1OTU3Nzk1LDg1NzY1OTg4MF19
+eyJoaXN0b3J5IjpbLTE2NjcwMDEyNywtMzE4MTQwNzc4LDgzNj
+Y3NTU0MCwtMTUzNTk1Nzc5NSw4NTc2NTk4ODBdfQ==
 -->
