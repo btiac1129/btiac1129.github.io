@@ -32,7 +32,15 @@ use_math: true
 
 | arr | divisor | return |
 | --- | ------- | ------ | 
-| 
+| `[5, 9, 7, 10]` | `5` | `[5, 10]` |
+| `[2, 36, 1, 3]` | `1` | `[1, 2, 3, 36]` |
+| `[3, 2, 6]` | `10` | `[-1]` |
+
+***
+
+## 나의 풀이 <a id='my-solution'></a>
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTE4MzE0ODddfQ==
+eyJoaXN0b3J5IjpbLTE4MDU1NzI1MThdfQ==
 -->
