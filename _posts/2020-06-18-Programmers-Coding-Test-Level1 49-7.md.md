@@ -61,6 +61,11 @@ def solution(arr, divisor): return sorted([n for n in arr if n%divisor == 0]) or
 # return listA or listB → listA가 거짓일 때 listB를 리턴한다.
 ```
 
+***
+
+## 새로 배운 내용 <a id='deep'></a>
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzYzNjM3MzYsMTUyMTA3NDk2MF19
+eyJoaXN0b3J5IjpbLTQyOTg5MzIwNSwxNTIxMDc0OTYwXX0=
 -->
