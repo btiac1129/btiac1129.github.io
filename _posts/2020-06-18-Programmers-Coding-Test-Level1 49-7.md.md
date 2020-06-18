@@ -40,7 +40,21 @@ use_math: true
 
 ## 나의 풀이 <a id='my-solution'></a>
 
+```python
+def solution(arr, divisor):
+    answer = []
+    for elem in arr:
+        if elem%divisor == 0:
+            answer.append(elem)
+
+    return ([-1] if (len(answer)==0) else sorted(answer))
+```
+
+***
+
+## 다른 사람의 풀이 <a id='problem-solution'></a>
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDU1NzI1MThdfQ==
+eyJoaXN0b3J5IjpbMTUyMTA3NDk2MF19
 -->
