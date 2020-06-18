@@ -58,8 +58,9 @@ def solution(arr, divisor):
 
 ```python 
 def solution(arr, divisor): return sorted([n for n in arr if n%divisor == 0]) or [-1]
+# return listA or listB → listA가 거짓일 때 listB를 리턴한다.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjE0NTU3NTMsMTUyMTA3NDk2MF19
+eyJoaXN0b3J5IjpbLTExNzYzNjM3MzYsMTUyMTA3NDk2MF19
 -->
