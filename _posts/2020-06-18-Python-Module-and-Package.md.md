@@ -49,8 +49,11 @@ use_math: true
 
 ```python
 >>> import sys
->>> 
+>>> for path in sys.path:
+		print(path)
+
+C:\WINDOWS\SYSTEM32\python27.zip
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzI3OTYzMTRdfQ==
+eyJoaXN0b3J5IjpbLTEzMDg0NjQ4ODZdfQ==
 -->
