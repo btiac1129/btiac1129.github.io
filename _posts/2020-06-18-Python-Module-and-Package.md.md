@@ -40,7 +40,9 @@ use_math: true
 ```python
 >>> import sys
 >>> print(sys.builtin_module_names)
+('__builtin__', '__main__', '_ast', '_bisect', '_codecs', '_codecs_cn', '_codecs_hk', '_codecs_iso2022', '_codecs_jp', '_codecs_kr', '_codecs_tw', '_collections', '_csv', '_functools', '_heapq', '_hotshot', '_io', '_json', '_locale', '_lsprof', '_md5', '_multibytecodec', '_random', '_sha', '_sha256', '_sha512', '_sre', '_struct', '_subprocess', '_symtable', '_warnings', '_weakref', '_winreg', 'array', 'audioop', 'binascii', 'cPickle', 'cStringIO', 'cmath', 'datetime', 'errno', 'exceptions', 'future_builtins', 'gc', 'imageop', 'imp', 'itertools', 'marshal', 'math', 'mmap', 'msvcrt', 'nt', 'operator', 'parser', 'signal', 'strop', 'sys', 'thread', 'time', 'xxsubtype', 'zipimport', 'zlib')
 ```
+* 가져오고자 하는 모듈이 위에서 출력한 내장 모듈 목록에 없다면, 파이썬은 sys.path에 정의되
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzODc3OTM1MF19
+eyJoaXN0b3J5IjpbLTE4NDE3NzIyNjFdfQ==
 -->
