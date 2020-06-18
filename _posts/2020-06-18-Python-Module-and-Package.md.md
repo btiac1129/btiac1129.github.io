@@ -42,7 +42,10 @@ use_math: true
 >>> print(sys.builtin_module_names)
 ('__builtin__', '__main__', '_ast', '_bisect', '_codecs', '_codecs_cn', '_codecs_hk', '_codecs_iso2022', '_codecs_jp', '_codecs_kr', '_codecs_tw', '_collections', '_csv', '_functools', '_heapq', '_hotshot', '_io', '_json', '_locale', '_lsprof', '_md5', '_multibytecodec', '_random', '_sha', '_sha256', '_sha512', '_sre', '_struct', '_subprocess', '_symtable', '_warnings', '_weakref', '_winreg', 'array', 'audioop', 'binascii', 'cPickle', 'cStringIO', 'cmath', 'datetime', 'errno', 'exceptions', 'future_builtins', 'gc', 'imageop', 'imp', 'itertools', 'marshal', 'math', 'mmap', 'msvcrt', 'nt', 'operator', 'parser', 'signal', 'strop', 'sys', 'thread', 'time', 'xxsubtype', 'zipimport', 'zlib')
 ```
-* 가져오고자 하는 모듈이 위에서 출력한 내장 모듈 목록에 없다면, 파이썬은 sys.path에 정의되
+* 가져오고자 하는 모듈이 위에서 출력한 내장 모듈 목록에 없다면, 파이썬은 **sys.path에 정의되어 있는 디렉토리에서 모듈 파일을 탐색**하기 시작한다. sys.path에 정의되어 있는 디렉토리는 크게 다음 세 가지로 나뉜다.
+	* 파이썬 모듈이 실행되고 있는 현재 디렉토리
+	* PYTHONPATH 환경변수에 정의되어 있는 디렉토리
+	* 파이썬과 함께 설치된 기본 라이브러리  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDE3NzIyNjFdfQ==
+eyJoaXN0b3J5IjpbNDIyNDk3MDAyXX0=
 -->
