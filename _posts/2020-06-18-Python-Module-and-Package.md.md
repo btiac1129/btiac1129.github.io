@@ -61,7 +61,7 @@ $ set PYTHONPATH=C:\Modules
 btiac@DESKTOP-LC7U1F9 C:\Users\btiac\Desktop\end
 $ python sys_path.py
 C:\Users\btiac\Desktop\end
-C:\Modules
+C:\Modules							
 C:\WINDOWS\SYSTEM32\python27.zip	#!
 C:\Python27\DLLs					#!
 C:\Python27\lib						#!
@@ -71,5 +71,6 @@ C:\Python27							#!
 C:\Python27\lib\site-packages		#!
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzk0NTM3MjYsMTY4NjU1NDAwNl19
+eyJoaXN0b3J5IjpbMTUxNzk3MTg1MCwtMTY3OTQ1MzcyNiwxNj
+g2NTU0MDA2XX0=
 -->
