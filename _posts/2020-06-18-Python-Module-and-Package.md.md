@@ -74,8 +74,9 @@ C:\Python27\lib\site-packages		#!
 
 ### 메인 모듈과 하위 모듈
 
-* 파이썬에서는 이른바 '최상위 수준(Top Level)'에서 실행되는 스크립트가 있을 뿐, 메인 함수가 따로 없다. 
+* 파이썬에서는 이른바 **'최상위 수준(Top Level)'**에서 실행되는 스크립트가 있을 뿐, 메인 함수가 따로 없다. **최상위 수준 실행은 별 다른 게 아니라 명령 프롬프트 창이나 탐색기를 이용하여 파이썬 모듈을 실행하는 것을 말한다**.
+	* 최상위 수준으로 실행되는 스크립트를 일컬어 메인 모듈이라고 말한다.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA3NzIwODQ2LC0xNjc5NDUzNzI2LDE2OD
-Y1NTQwMDZdfQ==
+eyJoaXN0b3J5IjpbLTE2MTMzNTUwMzIsLTE2Nzk0NTM3MjYsMT
+Y4NjU1NDAwNl19
 -->
