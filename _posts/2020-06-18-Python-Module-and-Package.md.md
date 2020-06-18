@@ -33,7 +33,10 @@ use_math: true
 
 ### 모듈을 찾아서
 
-* `import` 문을 만나면 
+* `import` 문을 만나면 파이썬은 다음과 같은 순서로 모듈 파일을 찾아 나선다. (파이썬의 모듈 경로 탐색 규칙)
+	1.	파이썬 인터프리터 내장 모듈
+	2.	sys.path에 정의되어 있는 디렉토리
+* sys 모듈은 내장 모듈이기 때문에 확장자가 `py` 형태인 파일로는 찾을 수 없다. C 언어로 프로그래밍되어 파이썬에 내장되어 있기 때문이다. sys 모듈은 파이썬의 모듈에 관련된 정보를 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY5MTI5ODE5XX0=
+eyJoaXN0b3J5IjpbLTExMzg2Njc2OTVdfQ==
 -->
