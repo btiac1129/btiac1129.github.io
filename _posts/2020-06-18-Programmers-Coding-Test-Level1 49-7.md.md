@@ -65,7 +65,9 @@ def solution(arr, divisor): return sorted([n for n in arr if n%divisor == 0]) or
 
 ## 새로 배운 내용 <a id='deep'></a>
 
-### 
+### 파이썬 리스트 내포 (List Comprehension)
+
+### or 사용법
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTg5MzIwNSwxNTIxMDc0OTYwXX0=
+eyJoaXN0b3J5IjpbMjA2Mzg0MjUzMCwxNTIxMDc0OTYwXX0=
 -->
