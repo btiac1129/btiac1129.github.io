@@ -23,7 +23,16 @@ use_math: true
 
 ### 제한 사항
 
-*
+* `array`은 자연수를 담은 배열입니다. 
+* 정수 `i, j`에 대해 `i ≠ j` 이면 `arr[i] ≠ arr[j]` 입니다.
+* `divisor`는 자연수입니다.
+* `array`는 길이 1 이상인 배열입니다.
+
+### 입출력 예
+
+| arr | divisor | return |
+| --- | ------- | ------ | 
+| 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MjYzNzU0M119
+eyJoaXN0b3J5IjpbLTExNTE4MzE0ODddfQ==
 -->
