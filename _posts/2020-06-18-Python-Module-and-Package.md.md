@@ -52,8 +52,14 @@ use_math: true
 >>> for path in sys.path:
 		print(path)
 
-C:\WINDOWS\SYSTEM32\python27.zip
+C:\WINDOWS\SYSTEM32\python27.zip	#!
+C:\Python27\DLLs					#!
+C:\Python27\lib						#!
+C:\Python27\lib\plat-win
+C:\Python27\lib-tk
+C:\Python27							#!
+C:\Python27\lib\site-packages		#!
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDg0NjQ4ODZdfQ==
+eyJoaXN0b3J5IjpbMTY4NjU1NDAwNl19
 -->
