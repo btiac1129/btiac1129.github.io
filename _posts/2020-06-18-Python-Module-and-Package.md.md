@@ -61,7 +61,7 @@ $ set PYTHONPATH=C:\Modules
 btiac@DESKTOP-LC7U1F9 C:\Users\btiac\Desktop\end
 $ python sys_path.py
 C:\Users\btiac\Desktop\end
-C:\Modules							
+C:\Modules							#!
 C:\WINDOWS\SYSTEM32\python27.zip	#!
 C:\Python27\DLLs					#!
 C:\Python27\lib						#!
@@ -70,7 +70,12 @@ C:\Python27\lib-tk
 C:\Python27							#!
 C:\Python27\lib\site-packages		#!
 ``` 
+
+
+### 메인 모듈과 하위 모듈
+
+* 파이썬에서는 이른바 '최상위 수준(Top Level)'에서 실행되는 스크립트가 있을 뿐, 메인 함수가 따로 없다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNzk3MTg1MCwtMTY3OTQ1MzcyNiwxNj
-g2NTU0MDA2XX0=
+eyJoaXN0b3J5IjpbOTA3NzIwODQ2LC0xNjc5NDUzNzI2LDE2OD
+Y1NTQwMDZdfQ==
 -->
