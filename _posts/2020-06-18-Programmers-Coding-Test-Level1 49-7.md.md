@@ -55,10 +55,11 @@ def solution(arr, divisor):
 ## 다른 사람의 풀이 <a id='problem-solution'></a>
 
 ### 풀이 【1】
+
 ```python 
 def solution(arr, divisor): return sorted([n for n in arr if n%divisor == 0]) or [-1]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyNTkyMzkzLDE1MjEwNzQ5NjBdfQ==
+eyJoaXN0b3J5IjpbLTIxMjE0NTU3NTMsMTUyMTA3NDk2MF19
 -->
