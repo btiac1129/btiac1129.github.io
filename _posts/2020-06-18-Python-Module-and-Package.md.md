@@ -45,7 +45,12 @@ use_math: true
 * 가져오고자 하는 모듈이 위에서 출력한 내장 모듈 목록에 없다면, 파이썬은 **sys.path에 정의되어 있는 디렉토리에서 모듈 파일을 탐색**하기 시작한다. sys.path에 정의되어 있는 디렉토리는 크게 다음 세 가지로 나뉜다.
 	* 파이썬 모듈이 실행되고 있는 현재 디렉토리
 	* PYTHONPATH 환경변수에 정의되어 있는 디렉토리
-	* 파이썬과 함께 설치된 기본 라이브러리  
+	* 파이썬과 함께 설치된 기본 라이브러리 
+
+```python
+>>> import sys
+>>> 
+``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyNDk3MDAyXX0=
+eyJoaXN0b3J5IjpbLTIwMzI3OTYzMTRdfQ==
 -->
