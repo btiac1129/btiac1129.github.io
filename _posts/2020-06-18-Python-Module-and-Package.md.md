@@ -27,7 +27,8 @@ use_math: true
 
 ### `import`에 대해
 
-* `import`의 역할은 정확하게는 '다른 모듈 내의 코드에 대한 접근'을 가능하게 하는 것이다.  
+* `import`의 역할은 정확하게는 **'다른 모듈 내의 코드에 대한 접근'을 가능하게 하는 것**이다. `import`가 접근 가능하게 하는 코드에는 **변수, 함수, 클래스 등이 모두 포함**된다. 
+* `from calculator import *`에서 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njc1MTQ0NzVdfQ==
+eyJoaXN0b3J5IjpbOTQ2MDM1MDI0XX0=
 -->
