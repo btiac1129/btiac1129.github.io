@@ -48,10 +48,13 @@ def solution(a, b):
 
 ## 다른 사람들의 풀이 <a id="problem-solution'></a>
 
+### 풀이 【1】
 ```python 
 def adder(a, b):
 	return (abs(a-b)+1)*(a+b)//2
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODgzMTk1MiwxOTg3MTI1OTFdfQ==
+eyJoaXN0b3J5IjpbMTM3MjA4MTkxLDE5ODcxMjU5MV19
 -->
