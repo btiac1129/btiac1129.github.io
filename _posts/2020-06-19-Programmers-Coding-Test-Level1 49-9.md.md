@@ -39,19 +39,21 @@ use_math: true
 | `["abce", "abcd", "cdx"]` | `	2	` | `["abcd", "abce", "cdx"]` |
 
 ***
+## 나의 풀이 <a id='my-solution'></a>
 
 ```python
 def solution(strings, n):
     answer = []
-    nth_list = []
+    nth_list = [] # 각 문자열의 n번째 문자를 저장한다.
     for string in strings:
         nth_list.append(string[n])
-    for i in sorted(set(nth_list)):
-        for string in sorted(strings):
+    for i in sorted(set(nth_list)): # 반복되는 문자를 제거하고 정렬한 후 순회한다.
+        for string in sorted(strings): # 여기서 strings를 정렬하고 순회하면서, 마지막 제한 조건을 만족시키
             if i == string[n]:
                 answer.append(string)
+
 return answer
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NzcwNzgzMl19
+eyJoaXN0b3J5IjpbNjU0Njg4NjldfQ==
 -->
