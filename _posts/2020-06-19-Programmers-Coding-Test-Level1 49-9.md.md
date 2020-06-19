@@ -70,8 +70,11 @@ def strange_sort(strings, n):
 ```
 
 ### 풀이 【2】
-
-
+▼ 풀이 【1】과 비슷한 해법이지만 여기서는 la
+```python
+def strange_sort(strings, n):
+	return sorted(strings, key=lambda s: s[n])
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTQ2Mzk4MiwxNjQ0Mjc4NThdfQ==
+eyJoaXN0b3J5IjpbLTE3MTQ0MjE5ODEsMTY0NDI3ODU4XX0=
 -->
