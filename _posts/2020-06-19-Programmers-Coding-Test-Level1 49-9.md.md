@@ -62,10 +62,11 @@ return answer
 ### 풀이 【1】
 
 ```python
-
+def solution(strings, n):
+	return sorted(sorted(strings), key=lambda x: x[n]) 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NDAzNTIwMiw2MTQyMTM1MTYsMTY0ND
-I3ODU4XX0=
+eyJoaXN0b3J5IjpbLTExMzQ4MjQyMTAsLTM5NDAzNTIwMiw2MT
+QyMTM1MTYsMTY0NDI3ODU4XX0=
 -->
