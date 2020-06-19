@@ -59,6 +59,8 @@ def adder(a, b):
 def adder(a, b):
 	return sum(range(min(a, b), max(a, b)+1))
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5MjE5MzM4LDE5ODcxMjU5MV19
+eyJoaXN0b3J5IjpbLTcxMzU0Mzk0LDE5ODcxMjU5MV19
 -->
