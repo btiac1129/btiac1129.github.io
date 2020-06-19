@@ -66,7 +66,14 @@ def solution(strings, n):
 	return sorted(sorted(strings), key=lambda x: x[n]) 
 ```
 
+*** 
+
+## 새로 배운 내용 <a id='deep'></a>
+
+```python
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQ4MjQyMTAsLTM5NDAzNTIwMiw2MT
-QyMTM1MTYsMTY0NDI3ODU4XX0=
+eyJoaXN0b3J5IjpbLTQ0MzI4Njk4NiwtMzk0MDM1MjAyLDYxND
+IxMzUxNiwxNjQ0Mjc4NThdfQ==
 -->
