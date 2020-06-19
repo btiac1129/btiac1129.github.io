@@ -41,8 +41,10 @@ use_math: true
 ## 나의 풀이 <a id='my-solution'></a>
 
 ```python 
-
+def solution(a, b):
+    big, sm = (b, a) if b >= a else (a, b)
+    return sum([n for n in range(sm, big+1, 1)])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NzEyNTkxXX0=
+eyJoaXN0b3J5IjpbLTIwMTA1MjA0MjMsMTk4NzEyNTkxXX0=
 -->
