@@ -52,8 +52,10 @@ def solution(a, b):
 ```python 
 def adder(a, b):
 	return (abs(a-b)+1)*(a+b)//2
-	# ㅁ
+	# ▲
 ```
+
+▲ 가우스의 등차 수열의 합 공식을 이용했다. 
 
 ### 풀이 【2】
 ```python
@@ -83,6 +85,6 @@ def adder(a, b):
 	
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODAzMzc3NCwxNDQ3MzU4NDc0LC03MT
-M1NDM5NCwxOTg3MTI1OTFdfQ==
+eyJoaXN0b3J5IjpbLTE2NzMyNjM5MDIsMTQ0NzM1ODQ3NCwtNz
+EzNTQzOTQsMTk4NzEyNTkxXX0=
 -->
