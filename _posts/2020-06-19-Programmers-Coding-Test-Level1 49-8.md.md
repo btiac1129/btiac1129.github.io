@@ -52,6 +52,7 @@ def solution(a, b):
 ```python 
 def adder(a, b):
 	return (abs(a-b)+1)*(a+b)//2
+	# ㅁ
 ```
 
 ### 풀이 【2】
@@ -75,11 +76,13 @@ def adder(a, b):
 	 * $2S_n = {2a +(n-1)d} + (2a + (n-1)d} + ... + {2a + (n-1)d} + {2a + (n-1)d}$
 * 이제 양 변을 2로 나눈다.
 	* $S_n = n{2a + (n-1)d}/2$
-* 끝항 
-	* $∴ S_n = n(a+l)/2
+* 끝항 제 $n$항은 $a_n = l = a + (n-1)d$ 이므로
+	* $∴ S_n = n(a+l)/2$
+
+
 	
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzg4MTIxMjYsMTQ0NzM1ODQ3NCwtNz
-EzNTQzOTQsMTk4NzEyNTkxXX0=
+eyJoaXN0b3J5IjpbLTE1ODAzMzc3NCwxNDQ3MzU4NDc0LC03MT
+M1NDM5NCwxOTg3MTI1OTFdfQ==
 -->
