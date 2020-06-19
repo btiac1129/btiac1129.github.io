@@ -48,7 +48,7 @@ def solution(strings, n):
     for string in strings:
         nth_list.append(string[n])
     for i in sorted(set(nth_list)): # 반복되는 문자를 제거하고 정렬한 후 순회한다.
-        for string in sorted(strings): # 여기서 strings를 정렬하고 순회하면서, 마지막 제한 조건을 만족시킨다.
+        for string in sorted(strings): # 여기서 strings를 정렬하고 순회하면서, 마지막 제한 조건을 만족시킨다. 즉, sorted()가 두 번 필요하다. 
             if i == string[n]:
                 answer.append(string)
 
@@ -70,10 +70,8 @@ def solution(strings, n):
 
 ## 새로 배운 내용 <a id='deep'></a>
 
-```python
-
-```
+### sortkey
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzI4Njk4NiwtMzk0MDM1MjAyLDYxND
+eyJoaXN0b3J5IjpbLTc0NjM0MjQyMSwtMzk0MDM1MjAyLDYxND
 IxMzUxNiwxNjQ0Mjc4NThdfQ==
 -->
