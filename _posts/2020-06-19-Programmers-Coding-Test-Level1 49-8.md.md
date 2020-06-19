@@ -75,10 +75,11 @@ def adder(a, b):
 	 * $2S_n = {2a +(n-1)d} + (2a + (n-1)d} + ... + {2a + (n-1)d} + {2a + (n-1)d}$
 * 이제 양 변을 2로 나눈다.
 	* $S_n = n{2a + (n-1)d}/2$
-	* 
+* 끝항 
+	* $∴ S_n = n(a+l)/2
 	
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyNDI2ODMxLDE0NDczNTg0NzQsLTcxMz
-U0Mzk0LDE5ODcxMjU5MV19
+eyJoaXN0b3J5IjpbLTEyNzg4MTIxMjYsMTQ0NzM1ODQ3NCwtNz
+EzNTQzOTQsMTk4NzEyNTkxXX0=
 -->
