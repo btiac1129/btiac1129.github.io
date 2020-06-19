@@ -64,9 +64,11 @@ def adder(a, b):
 
 ## 새로 배운 내용 <a id="deep"></a>
 
+### 가우스의 등차 수열의 합 공식
 
+$ S_n = a_1 + a_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NzM1ODQ3NCwtNzEzNTQzOTQsMTk4Nz
-EyNTkxXX0=
+eyJoaXN0b3J5IjpbLTE2MTkxNTAwODQsMTQ0NzM1ODQ3NCwtNz
+EzNTQzOTQsMTk4NzEyNTkxXX0=
 -->
