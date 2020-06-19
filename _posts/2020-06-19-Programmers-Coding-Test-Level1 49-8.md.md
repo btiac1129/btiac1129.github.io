@@ -6,7 +6,7 @@ categories: Python Coding-test Programmers
 use_math: true
 ---
 
-**_Description_ : 프로그래머스 코딩 테스트 level 1 연습 문제 (9/49)**
+**_Description_ : 프로그래머스 코딩 테스트 level 1 연습 문제 (8/49)**
 
 * [두 정수 사이의 합](#problem-description)
 * [나의 풀이](#my-solution)
@@ -85,6 +85,6 @@ def adder(a, b):
 	
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzI2Njc4MSwzMDY2ODcxOSwxNDQ3Mz
+eyJoaXN0b3J5IjpbMjA0MTU3OTQ1NCwzMDY2ODcxOSwxNDQ3Mz
 U4NDc0LC03MTM1NDM5NCwxOTg3MTI1OTFdfQ==
 -->
