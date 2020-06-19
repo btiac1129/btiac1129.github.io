@@ -60,7 +60,13 @@ def adder(a, b):
 	return sum(range(min(a, b), max(a, b)+1))
 ```
 
+***
+
+## 새로 배운 내용 <a id="deep"></a>
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMzU0Mzk0LDE5ODcxMjU5MV19
+eyJoaXN0b3J5IjpbMTQ0NzM1ODQ3NCwtNzEzNTQzOTQsMTk4Nz
+EyNTkxXX0=
 -->
