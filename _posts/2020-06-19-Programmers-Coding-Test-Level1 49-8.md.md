@@ -72,10 +72,13 @@ def adder(a, b):
 	 * $S_n = a + (a+d) + (a+2d) + ... + {a + (n-2)d} + {a + (n-1)d}
 * 합의 공식 유도
 	 * $S_n = {a + (n-1)d} + {a + (n-2)d} + ... + (a+2d) + (a+d) + a
-	 * $2S_n = {2a +(n-1)d} + (2a + (n-1)d} + ... + 
+	 * $2S_n = {2a +(n-1)d} + (2a + (n-1)d} + ... + {2a + (n-1)d} + {2a + (n-1)d}$
+* 이제 양 변을 2로 나눈다.
+	* $S_n = n{2a + (n-1)d}/2$
+	* 
 	
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDk3MTIxMiwxNDQ3MzU4NDc0LC03MT
-M1NDM5NCwxOTg3MTI1OTFdfQ==
+eyJoaXN0b3J5IjpbNTMyNDI2ODMxLDE0NDczNTg0NzQsLTcxMz
+U0Mzk0LDE5ODcxMjU5MV19
 -->
