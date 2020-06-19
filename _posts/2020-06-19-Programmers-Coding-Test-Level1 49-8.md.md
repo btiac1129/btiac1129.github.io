@@ -33,8 +33,8 @@ use_math: true
 | a | b | return |
 | - | - | ------ |
 | `	3	` | `	5	` | `	12	` |
-| `	3	` | `	3	` | `	3` |
-| `5` | `3` | `12` |
+| `	3	` | `	3	` | `	3	` |
+| `	5	` | `	3	` | `	12	` |
 
 ***
 
@@ -85,6 +85,6 @@ def adder(a, b):
 	
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjA5NTg3OCwzMDY2ODcxOSwxNDQ3Mz
-U4NDc0LC03MTM1NDM5NCwxOTg3MTI1OTFdfQ==
+eyJoaXN0b3J5IjpbOTA4NTk3NzU4LDMwNjY4NzE5LDE0NDczNT
+g0NzQsLTcxMzU0Mzk0LDE5ODcxMjU5MV19
 -->
