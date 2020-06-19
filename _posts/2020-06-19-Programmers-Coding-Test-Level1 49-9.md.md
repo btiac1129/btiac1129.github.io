@@ -36,7 +36,22 @@ use_math: true
 | strings | n | return |
 | ------- | - | ------ |
 | `["sun", "bed", "car"]` | `	1	` | `["car", "bed", "sun"]` |
-| `[
+| `["abce", "abcd", "cdx"]` | `	2	` | `["abcd", "abce", "cdx"]` |
+
+***
+
+```python
+def solution(strings, n):
+    answer = []
+    nth_list = []
+    for string in strings:
+        nth_list.append(string[n])
+    for i in sorted(set(nth_list)):
+        for string in sorted(strings):
+            if i == string[n]:
+                answer.append(string)
+return answer
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODYwMDA4XX0=
+eyJoaXN0b3J5IjpbLTU4NzcwNzgzMl19
 -->
