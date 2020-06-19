@@ -70,6 +70,8 @@ def strange_sort(strings, n):
 ```
 
 ### 풀이 【2】
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDI3ODU4XX0=
+eyJoaXN0b3J5IjpbMTgxNTQ2Mzk4MiwxNjQ0Mjc4NThdfQ==
 -->
