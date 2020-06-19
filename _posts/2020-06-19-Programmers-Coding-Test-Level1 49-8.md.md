@@ -46,6 +46,8 @@ def solution(a, b):
     return sum([n for n in range(sm, big+1, 1)])
 ```
 
+***
+
 ## 다른 사람들의 풀이 <a id="problem-solution"></a>
 
 ### 풀이 【1】
@@ -85,6 +87,6 @@ def adder(a, b):
 	
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTM2NzE0OSwzMDY2ODcxOSwxNDQ3Mz
-U4NDc0LC03MTM1NDM5NCwxOTg3MTI1OTFdfQ==
+eyJoaXN0b3J5IjpbLTIxMzc1NDUxNjcsMzA2Njg3MTksMTQ0Nz
+M1ODQ3NCwtNzEzNTQzOTQsMTk4NzEyNTkxXX0=
 -->
