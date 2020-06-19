@@ -59,6 +59,8 @@ return answer
 
 ## 다른 사람들의 풀이 <a id="problem-solution"></a>
 
+### 풀이 【1】
+
 ```python
 def strange_sort(strings, n):
     def sortkey(x):
@@ -66,6 +68,8 @@ def strange_sort(strings, n):
     strings.sort(key=sortkey)
     return strings
 ```
+
+### 풀이 【2】
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4ODcyNjY5M119
+eyJoaXN0b3J5IjpbMTY0NDI3ODU4XX0=
 -->
