@@ -30,7 +30,19 @@ use_math: true
 
 ### 입출력 예
 
-|
+| a | b | return |
+| - | - | ------ |
+| `3` | `5` | `12` |
+| `3` | `3` | `3` |
+| `5` | `3` | `12` |
+
+***
+
+## 나의 풀이 <a id='my-solution'></a>
+
+```python 
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDYzMzE0NDhdfQ==
+eyJoaXN0b3J5IjpbMTk4NzEyNTkxXX0=
 -->
