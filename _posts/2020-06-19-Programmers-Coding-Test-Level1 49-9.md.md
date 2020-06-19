@@ -62,19 +62,10 @@ return answer
 ### 풀이 【1】
 
 ```python
-def strange_sort(strings, n):
-    def sortkey(x):
-        return x[n]
-    strings.sort(key=sortkey)
-    return strings
+
 ```
 
-### 풀이 【2】
-▼ 풀이 【1】과 비슷한 해법. 여기서는 간단한 함수 대신 lambda 함수를 활용한 점이 다름.
-```python
-def strange_sort(strings, n):
-	return sorted(strings, key=lambda s: s[n])
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE0MjEzNTE2LDE2NDQyNzg1OF19
+eyJoaXN0b3J5IjpbLTM5NDAzNTIwMiw2MTQyMTM1MTYsMTY0ND
+I3ODU4XX0=
 -->
