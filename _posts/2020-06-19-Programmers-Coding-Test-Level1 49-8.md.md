@@ -77,7 +77,7 @@ def adder(a, b):
 	 * $S_n = a + (a+d) + (a+2d) + ... + {a + (n-2)d} + {a + (n-1)d}$
 * 합의 공식 유도
 	 * $S_n = {a + (n-1)d} + {a + (n-2)d} + ... + (a+2d) + (a+d) + a$
-	 * $2S_n = {2a +(n-1)d} + (2a + (n-1)d} + ... + {2a + (n-1)d} + {2a + (n-1)d}$
+	 * $2S_n = {2a +(n-1)d} + {(2a + (n-1)d} + ... + {2a + (n-1)d} + {2a + (n-1)d}$
 * 이제 양 변을 2로 나눈다.
 	* $S_n = n{2a + (n-1)d}/2$
 * 끝항 제 $n$항은 $a_n = l = a + (n-1)d$ 이므로
@@ -87,6 +87,7 @@ def adder(a, b):
 	
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzc1NDUxNjcsMzA2Njg3MTksMTQ0Nz
-M1ODQ3NCwtNzEzNTQzOTQsMTk4NzEyNTkxXX0=
+eyJoaXN0b3J5IjpbMTk4MjMyNTk4NCwtMjEzNzU0NTE2NywzMD
+Y2ODcxOSwxNDQ3MzU4NDc0LC03MTM1NDM5NCwxOTg3MTI1OTFd
+fQ==
 -->
