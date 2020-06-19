@@ -17,7 +17,7 @@ use_math: true
 
 ## 문자열 내 마음대로 정렬하기 <a id="problem-description"></a>
 
-▲ 다 풀고 보니 문제 제목을 왜 이렇게 지었는지 알겠다.
+▲ 다 풀고 보니 문제 제목을 왜 이렇게 지었는지 알 것 같았다.
 
 ### 문제 설명
 
@@ -48,12 +48,24 @@ def solution(strings, n):
     for string in strings:
         nth_list.append(string[n])
     for i in sorted(set(nth_list)): # 반복되는 문자를 제거하고 정렬한 후 순회한다.
-        for string in sorted(strings): # 여기서 strings를 정렬하고 순회하면서, 마지막 제한 조건을 만족시키
+        for string in sorted(strings): # 여기서 strings를 정렬하고 순회하면서, 마지막 제한 조건을 만족시킨다.
             if i == string[n]:
                 answer.append(string)
 
 return answer
 ```
+
+***
+
+## 다른 사람들의 풀이 <a id="problem-solution"></a>
+
+```python
+def strange_sort(strings, n):
+    def sortkey(x):
+        return x[n]
+    strings.sort(key=sortkey)
+    return strings
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0Njg4NjldfQ==
+eyJoaXN0b3J5IjpbLTk4ODcyNjY5M119
 -->
