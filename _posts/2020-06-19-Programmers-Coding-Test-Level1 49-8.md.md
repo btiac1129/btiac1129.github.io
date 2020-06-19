@@ -72,7 +72,7 @@ def adder(a, b):
 * 첫째 항이 $a$이고 공차가 $d$ 인 등차 수열의 첫째 항부터 제 $n$항까지의 합 
 	* $S_n = a_1 + a_2 + a_3 + ... + a_n-1 + a_n$
  * $a, d$에 대한 식으로 바꾼다.
-	 * $S_n = a + (a+d) + (a+2d) + ... + {a + (n-2)d} + {a + (n-1)d}
+	 * $S_n = a + (a+d) + (a+2d) + ... + {a + (n-2)d} + {a + (n-1)d}$
 * 합의 공식 유도
 	 * $S_n = {a + (n-1)d} + {a + (n-2)d} + ... + (a+2d) + (a+d) + a$
 	 * $2S_n = {2a +(n-1)d} + (2a + (n-1)d} + ... + {2a + (n-1)d} + {2a + (n-1)d}$
@@ -85,6 +85,6 @@ def adder(a, b):
 	
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2NDEwMzUsMzA2Njg3MTksMTQ0NzM1OD
-Q3NCwtNzEzNTQzOTQsMTk4NzEyNTkxXX0=
+eyJoaXN0b3J5IjpbMjAyNzI2Njc4MSwzMDY2ODcxOSwxNDQ3Mz
+U4NDc0LC03MTM1NDM5NCwxOTg3MTI1OTFdfQ==
 -->
