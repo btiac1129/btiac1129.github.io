@@ -65,11 +65,12 @@ def adder(a, b):
 ## 새로 배운 내용 <a id="deep"></a>
 
 ### 가우스의 등차 수열의 합 공식
-
-* 첫째 항이 $a$이고 공차가 $d$ 인 등차 수열의 첫째 항부터 제  
-$S_n = a_1 + a_2 + a_3 + ... + a_n-1 + a_n$
-
+ 
+* 첫째 항이 $a$이고 공차가 $d$ 인 등차 수열의 첫째 항부터 제 $n$항까지의 합 
+	* $S_n = a_1 + a_2 + a_3 + ... + a_n-1 + a_n$
+ * $a, d$에 대한 식으로 바꾼다.
+	 * $S_n = a + (a+d) + (a+2d) + ... + {a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODEzNzU3NCwxNDQ3MzU4NDc0LC03MT
-M1NDM5NCwxOTg3MTI1OTFdfQ==
+eyJoaXN0b3J5IjpbLTEzODEzNTE4NDQsMTQ0NzM1ODQ3NCwtNz
+EzNTQzOTQsMTk4NzEyNTkxXX0=
 -->
