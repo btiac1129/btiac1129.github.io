@@ -54,7 +54,11 @@ def adder(a, b):
 	return (abs(a-b)+1)*(a+b)//2
 ```
 
-
+### 풀이 【2】
+```python
+def adder(a, b):
+	return sum(range(min(a, b), max(a, b)+1))
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjA4MTkxLDE5ODcxMjU5MV19
+eyJoaXN0b3J5IjpbMzg5MjE5MzM4LDE5ODcxMjU5MV19
 -->
