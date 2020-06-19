@@ -45,6 +45,13 @@ def solution(a, b):
     big, sm = (b, a) if b >= a else (a, b)
     return sum([n for n in range(sm, big+1, 1)])
 ```
+
+## 다른 사람들의 풀이 <a id="problem-solution'></a>
+
+```python 
+def adder(a, b):
+	return (abs(a-b)+1)*(a+b)//2
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTA1MjA0MjMsMTk4NzEyNTkxXX0=
+eyJoaXN0b3J5IjpbLTM4ODgzMTk1MiwxOTg3MTI1OTFdfQ==
 -->
