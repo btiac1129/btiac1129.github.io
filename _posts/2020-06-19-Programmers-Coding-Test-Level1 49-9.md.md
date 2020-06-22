@@ -74,8 +74,17 @@ def solution(strings, n):
 
 참고 자료 : [Sorting How to](#https://docs.python.org/3/howto/sorting.html#sortinghowto)
 
+```python
+# 
+>>> student_tuples = [
+	('john', 'A', 15),
+	('jane', 'B', 12),
+	('dave', 'B', 10),
+]
+>>> sorted(student_tuples, key=lambda student: student[2])
+[('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyMTc5OTM1LC03NDYzNDI0MjEsLTM5ND
-AzNTIwMiw2MTQyMTM1MTYsMTY0NDI3ODU4XX0=
+eyJoaXN0b3J5IjpbLTEwMjc1MjIxNjIsLTc0NjM0MjQyMSwtMz
+k0MDM1MjAyLDYxNDIxMzUxNiwxNjQ0Mjc4NThdfQ==
 -->
