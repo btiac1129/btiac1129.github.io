@@ -61,7 +61,8 @@ def solution(arr, divisor): return sorted([n for n in arr if n%divisor == 0]) or
 # ▲ return listA or listB → listA가 거짓일 때 listB를 리턴한다.
 ```
 
-▲ 파이썬에서 `[], 0, ""`처럼 빈 값을 `bool()` 연산자로 확인해보면, `False` 이고 그 외 값은 `True`이다. 위 문제의 해답에서 `divisor`로 나누어 떨어지는 element가 하나도 없다면, `List comprehension`으로 만들어지는 리스트는 빈 리스트일 것이다. 그러므로 빈 리스트와 `[-1]` 리스트를 `or` 연산자로 비교하면, `True` 값인 `[-1]`이 결국 `return` 된다.
+▲ 파이썬에서 `[], 0, ""`처럼 빈 값을 `bool()` 연산자로 확인해보면 `False` 이고, 그 외 값은 `True`이다. 위 문제의 해답에서 `divisor`로 나누어 떨어지는 element가 하나도 없다면, `List comprehension`으로 만들어지는 리스트는 빈 리스트일 것이다. 그러므로 빈 리스트와 `[-1]` 리스트를 `or` 연산자로 비교하면, `True` 값인 `[-1]`이 결국 `return` 된다.
+
 ***
 
 ## 새로 배운 내용 <a id='deep'></a>
@@ -110,7 +111,7 @@ List  comprehensions provide a concise way to create lists. Common applications 
 ['banana', 'loganberry', 'passion fruit']
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NzM5MjAzMiwxNTA0MTYxOTU3LC0xMj
-cxMzM5MTMsMTE2NDQzMTk0OSwyMDYzODQyNTMwLDE1MjEwNzQ5
-NjBdfQ==
+eyJoaXN0b3J5IjpbLTE1NTA0NDYyMjAsMTUwNDE2MTk1NywtMT
+I3MTMzOTEzLDExNjQ0MzE5NDksMjA2Mzg0MjUzMCwxNTIxMDc0
+OTYwXX0=
 -->
