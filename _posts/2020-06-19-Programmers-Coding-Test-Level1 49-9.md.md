@@ -83,8 +83,11 @@ def solution(strings, n):
 ]
 >>> sorted(student_tuples, key=lambda student: student[2])
 [('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
+
+
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjc1MjIxNjIsLTc0NjM0MjQyMSwtMz
+eyJoaXN0b3J5IjpbLTE1OTcxMzQ4ODAsLTc0NjM0MjQyMSwtMz
 k0MDM1MjAyLDYxNDIxMzUxNiwxNjQ0Mjc4NThdfQ==
 -->
