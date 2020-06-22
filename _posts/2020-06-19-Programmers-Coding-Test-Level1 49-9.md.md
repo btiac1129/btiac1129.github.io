@@ -70,10 +70,11 @@ def solution(strings, n):
 
 ## 새로 배운 내용 <a id='deep'></a>
 
-### `key of sorted()`
+### `Key Functions of sorted()`
 
 참고 자료 : [Sorting How to](#https://docs.python.org/3/howto/sorting.html#sortinghowto)
 
+#### sorted(_iterable_, _*_, _key=None_, _reverse=False_)
 ```python
 # 1. 
 >>> student_tuples = [
@@ -106,6 +107,6 @@ def solution(strings, n):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTQ5MjQ5NCwtNzQ2MzQyNDIxLC0zOT
+eyJoaXN0b3J5IjpbMTIyNDQ1NTg3NSwtNzQ2MzQyNDIxLC0zOT
 QwMzUyMDIsNjE0MjEzNTE2LDE2NDQyNzg1OF19
 -->
