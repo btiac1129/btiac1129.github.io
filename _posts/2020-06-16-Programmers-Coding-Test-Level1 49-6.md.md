@@ -78,7 +78,38 @@ def solution(arr):
 
 ### 인덱스 슬라이싱
  
+```python 
+>>> word = 'Python'
+>>> word
+'Python'
+>>> # 문자열 인덱스
+>>> word[0]
+'P'
+>>> word[5]
+'n'
+>>> word[-1]	# !
+'n'
+>>> word[-2]	# !
+'o'
+>>> word[-6]	# !
+'P'
+>>> # 문자열 슬라이싱
+>>> word[0:2]
+'Py'
+>>> word[2:5]
+'tho'
+>>> word[2:6]
+'thon'
+>>> word[:]
+'Python'
+>>> word[:2]
+'Py'
+>>> word[4:]
+'on'
+>>> word[-2:]
+'on'
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTUxNTYzNDcsMTU1MDY4NDc4MSwxNz
-g1MTY2MjM4XX0=
+eyJoaXN0b3J5IjpbMTkyNDI4MzMxMCwtMTU1NTE1NjM0NywxNT
+UwNjg0NzgxLDE3ODUxNjYyMzhdfQ==
 -->
