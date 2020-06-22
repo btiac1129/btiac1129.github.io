@@ -104,12 +104,12 @@ def solution(arr):
 'Python'
 >>> word[:2]
 'Py'
->>> word[4:]
+>>> word[4:]	# !
 'on'
->>> word[-2:]
+>>> word[-2:]	# !
 'on'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNDI4MzMxMCwtMTU1NTE1NjM0NywxNT
-UwNjg0NzgxLDE3ODUxNjYyMzhdfQ==
+eyJoaXN0b3J5IjpbODE3ODc0ODUwLC0xNTU1MTU2MzQ3LDE1NT
+A2ODQ3ODEsMTc4NTE2NjIzOF19
 -->
