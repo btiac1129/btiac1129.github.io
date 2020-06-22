@@ -108,9 +108,8 @@ List  comprehensions provide a concise way to create lists. Common applications 
 >>> [weapon.strip() for weapon in freshfruit]
 ['banana', 'loganberry', 'passion fruit']
 ```
-
-### or 사용법
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNDE2MTk1NywtMTI3MTMzOTEzLDExNj
-Q0MzE5NDksMjA2Mzg0MjUzMCwxNTIxMDc0OTYwXX0=
+eyJoaXN0b3J5IjpbLTQxMTI3Njc5LDE1MDQxNjE5NTcsLTEyNz
+EzMzkxMywxMTY0NDMxOTQ5LDIwNjM4NDI1MzAsMTUyMTA3NDk2
+MF19
 -->
