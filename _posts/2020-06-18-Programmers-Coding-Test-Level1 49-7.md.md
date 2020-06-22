@@ -69,9 +69,24 @@ def solution(arr, divisor): return sorted([n for n in arr if n%divisor == 0]) or
 
 List  comprehensions provide a concise way to create lists. Common applications are **to make new lists** where each element is **the result of some operations applied to each member** of another sequence or iterable, or to create a subsequence of those elements **that satisfy a certain condition**.
 
+```python 
+>>> # Assume we want to create a list of squares
+>>> squares = []
+>>> for x in range(10):
+	squares.append(x**2)
+
+>>> squares
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+>>> squares = list(map(lambda x: x**2, range(10)))
+>>> squares
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+>>> squares = [x**2 for x in range(10)]
+>>> squares
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+```
 
 ### or 사용법
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDQzMTk0OSwyMDYzODQyNTMwLDE1Mj
-EwNzQ5NjBdfQ==
+eyJoaXN0b3J5IjpbMTA5MjU4NDg0NiwxMTY0NDMxOTQ5LDIwNj
+M4NDI1MzAsMTUyMTA3NDk2MF19
 -->
