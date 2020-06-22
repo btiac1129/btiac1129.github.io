@@ -70,8 +70,12 @@ def solution(strings, n):
 
 ## 새로 배운 내용 <a id='deep'></a>
 
-### sortkey
+### `key of sorted()`
+
+참고 자료 : [Sorting How to](#https://docs.python.org/3/howto/sorting.html#sortinghowto)
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NjM0MjQyMSwtMzk0MDM1MjAyLDYxND
-IxMzUxNiwxNjQ0Mjc4NThdfQ==
+eyJoaXN0b3J5IjpbOTEyMTc5OTM1LC03NDYzNDI0MjEsLTM5ND
+AzNTIwMiw2MTQyMTM1MTYsMTY0NDI3ODU4XX0=
 -->
