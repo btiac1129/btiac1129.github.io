@@ -61,7 +61,7 @@ def solution(arr, divisor): return sorted([n for n in arr if n%divisor == 0]) or
 # ▲ return listA or listB → listA가 거짓일 때 listB를 리턴한다.
 ```
 
-▲ 파이썬에서 `[], 0, ""`처럼 빈 값을 `bool()` 연산자로 확인해보면, `False` 이고 그 외 값은 `True`이다.  
+▲ 파이썬에서 `[], 0, ""`처럼 빈 값을 `bool()` 연산자로 확인해보면, `False` 이고 그 외 값은 `True`이다. 위 문제의 해답에서 `divisor`로 나누어 떨어지는 element가 하나도 없다면, `List comprehension`으로 반
 ***
 
 ## 새로 배운 내용 <a id='deep'></a>
@@ -110,7 +110,7 @@ List  comprehensions provide a concise way to create lists. Common applications 
 ['banana', 'loganberry', 'passion fruit']
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjEyMTUyMCwxNTA0MTYxOTU3LC0xMj
-cxMzM5MTMsMTE2NDQzMTk0OSwyMDYzODQyNTMwLDE1MjEwNzQ5
-NjBdfQ==
+eyJoaXN0b3J5IjpbLTYzNjQ3NzgxLDE1MDQxNjE5NTcsLTEyNz
+EzMzkxMywxMTY0NDMxOTQ5LDIwNjM4NDI1MzAsMTUyMTA3NDk2
+MF19
 -->
