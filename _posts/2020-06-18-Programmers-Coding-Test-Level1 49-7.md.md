@@ -44,7 +44,7 @@ use_math: true
 def solution(arr, divisor):
     answer = []
     for elem in arr:
-        if elem%divisor == 0:
+        if elem % divisor == 0:
             answer.append(elem)
 
     return ([-1] if (len(answer)==0) else sorted(answer))
@@ -67,7 +67,11 @@ def solution(arr, divisor): return sorted([n for n in arr if n%divisor == 0]) or
 
 ### 파이썬 리스트 내포 (List Comprehension)
 
+List  comprehensions provide a concise way to create lists.
+
+
 ### or 사용법
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2Mzg0MjUzMCwxNTIxMDc0OTYwXX0=
+eyJoaXN0b3J5IjpbNTQwNTQzNjA2LDIwNjM4NDI1MzAsMTUyMT
+A3NDk2MF19
 -->
