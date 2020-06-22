@@ -58,9 +58,10 @@ def solution(arr, divisor):
 
 ```python 
 def solution(arr, divisor): return sorted([n for n in arr if n%divisor == 0]) or [-1]
-# return listA or listB → listA가 거짓일 때 listB를 리턴한다.
+# ▲ return listA or listB → listA가 거짓일 때 listB를 리턴한다.
 ```
 
+▲ 파이썬에서 [], 0, ""처럼 빈 값을 bool() 연산자로 확인해보면, False 이고 
 ***
 
 ## 새로 배운 내용 <a id='deep'></a>
@@ -109,7 +110,7 @@ List  comprehensions provide a concise way to create lists. Common applications 
 ['banana', 'loganberry', 'passion fruit']
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTI3Njc5LDE1MDQxNjE5NTcsLTEyNz
-EzMzkxMywxMTY0NDMxOTQ5LDIwNjM4NDI1MzAsMTUyMTA3NDk2
-MF19
+eyJoaXN0b3J5IjpbLTE1NzkyMDk1MCwxNTA0MTYxOTU3LC0xMj
+cxMzM5MTMsMTE2NDQzMTk0OSwyMDYzODQyNTMwLDE1MjEwNzQ5
+NjBdfQ==
 -->
