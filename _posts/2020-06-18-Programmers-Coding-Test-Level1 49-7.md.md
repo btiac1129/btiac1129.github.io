@@ -97,10 +97,17 @@ List  comprehensions provide a concise way to create lists. Common applications 
 >>> combs
 [(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]
 
+# 3. 
+>>> vec = [-4, -2, 0, 2, 4]
+>>> [x for x in vec if x>= 0]
+[0, 2, 4]
+>>> [abs(x) for x in vec]
+[4, 2, 0, 2, 4]
+
 ```
 
 ### or 사용법
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzEzMzkxMywxMTY0NDMxOTQ5LDIwNj
-M4NDI1MzAsMTUyMTA3NDk2MF19
+eyJoaXN0b3J5IjpbNjkxOTYzOTcsLTEyNzEzMzkxMywxMTY0ND
+MxOTQ5LDIwNjM4NDI1MzAsMTUyMTA3NDk2MF19
 -->
