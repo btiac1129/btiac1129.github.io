@@ -84,10 +84,23 @@ List  comprehensions provide a concise way to create lists. Common applications 
 >>> squares
 [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 
+# 2.
+>>> [(x, y) for x in [1, 2, 3] for y in [3, 1, 4] if x!=y]
+[(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]
+>>> # it's equivalent to : 
+>>> combs = []
+>>> for x in [1, 2, 3]:
+	for y in [3, 1, 4]:
+		if x != y:
+			combs.append((x, y))
+		
+>>> combs
+[(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]
+
 ```
 
 ### or 사용법
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3Mjk2ODUxLDExNjQ0MzE5NDksMjA2Mz
-g0MjUzMCwxNTIxMDc0OTYwXX0=
+eyJoaXN0b3J5IjpbLTEyNzEzMzkxMywxMTY0NDMxOTQ5LDIwNj
+M4NDI1MzAsMTUyMTA3NDk2MF19
 -->
