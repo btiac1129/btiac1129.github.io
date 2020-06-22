@@ -105,9 +105,10 @@ def solution(strings, n):
 >>> sorted(student_objects, key = lambda student: student.age)
 [('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
 ```
-**The value of the _key_ parameter should be a function that takes a single argument and returns a key to use for sorting purposes.** This technique is **fast** because the key function is called exactly once for each input record.
+**The value of the _key_ parameter should be a function that takes a single argument and returns a key to use for sorting purposes.** This technique is **fast** because the key function is **called exactly once for each input record**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDE0NTk0LC03NDYzNDI0MjEsLTM5ND
-AzNTIwMiw2MTQyMTM1MTYsMTY0NDI3ODU4XX0=
+eyJoaXN0b3J5IjpbLTcyODIyMzk4LDEzMTAxNDU5NCwtNzQ2Mz
+QyNDIxLC0zOTQwMzUyMDIsNjE0MjEzNTE2LDE2NDQyNzg1OF19
+
 -->
