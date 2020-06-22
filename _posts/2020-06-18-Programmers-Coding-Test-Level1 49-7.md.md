@@ -67,11 +67,11 @@ def solution(arr, divisor): return sorted([n for n in arr if n%divisor == 0]) or
 
 ### 파이썬 리스트 내포 (List Comprehension)
 
-List  comprehensions provide a concise way to create lists.
+List  comprehensions provide a concise way to create lists. Common applications are **to make new lists** where each element is **the result of some operations applied to each member** of another sequence or iterable, or to create a subsequence of those elements **that satisfy a certain condition**.
 
 
 ### or 사용법
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwNTQzNjA2LDIwNjM4NDI1MzAsMTUyMT
-A3NDk2MF19
+eyJoaXN0b3J5IjpbMTE2NDQzMTk0OSwyMDYzODQyNTMwLDE1Mj
+EwNzQ5NjBdfQ==
 -->
