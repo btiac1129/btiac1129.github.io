@@ -104,10 +104,13 @@ List  comprehensions provide a concise way to create lists. Common applications 
 >>> [abs(x) for x in vec]
 [4, 2, 0, 2, 4]
 
+>>> freshfruit = ['   banana', '   loganberry   ', 'passion fruit   ']
+>>> [weapon.strip() for weapon in freshfruit]
+['banana', 'loganberry', 'passion fruit']
 ```
 
 ### or 사용법
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkxOTYzOTcsLTEyNzEzMzkxMywxMTY0ND
-MxOTQ5LDIwNjM4NDI1MzAsMTUyMTA3NDk2MF19
+eyJoaXN0b3J5IjpbMTUwNDE2MTk1NywtMTI3MTMzOTEzLDExNj
+Q0MzE5NDksMjA2Mzg0MjUzMCwxNTIxMDc0OTYwXX0=
 -->
