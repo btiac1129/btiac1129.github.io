@@ -107,8 +107,13 @@ def solution(strings, n):
 ```
 **The value of the _key_ parameter should be a function that takes a single argument and returns a key to use for sorting purposes.** This technique is **fast** because the key function is **called exactly once for each input record**.
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODIyMzk4LDEzMTAxNDU5NCwtNzQ2Mz
-QyNDIxLC0zOTQwMzUyMDIsNjE0MjEzNTE2LDE2NDQyNzg1OF19
+```python
+>>> sorted("This is a test string from Andrew".split(), key=str.lower)
+['a', 'Andrew', 'from', 'is', 'string', 'test', 'This']
+```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODU1NDE0OTkxLC03MjgyMjM5OCwxMzEwMT
+Q1OTQsLTc0NjM0MjQyMSwtMzk0MDM1MjAyLDYxNDIxMzUxNiwx
+NjQ0Mjc4NThdfQ==
 -->
