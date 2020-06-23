@@ -48,10 +48,13 @@ def solution(s):
 Return a string which is **the concatenation of the strings in _iterable_**. A `TypeError` will be raised if there are any non-string values in _iterable_, including `bytes` objects. **The separator between elements is the str** providing this method.
 
 ```python
-list = ['H', 'e', 'l', 'l', 'o', ' ', 
+>>> _list = ['H', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', '!']
+>>> ''.join(_list)	# !
+'Hello world!'
+
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDI1MjQwNzUsLTIwMTc4NzMzOSwtNj
-AyMjM5NDM1LC0xOTkyMDE3NDAzXX0=
+eyJoaXN0b3J5IjpbMTk3OTM2NjI4NywtMjAxNzg3MzM5LC02MD
+IyMzk0MzUsLTE5OTIwMTc0MDNdfQ==
 -->
