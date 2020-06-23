@@ -44,7 +44,10 @@ def solution(s):
 
 ## 새로 배운 내용 <a id="deep"></a>
 
-### `join`
+### `str.join(_iterable_)`
+Return a string which is the concatenation of the strings in _iterable_.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTIwMTc0MDNdfQ==
+eyJoaXN0b3J5IjpbLTM5Nzc2OTE0LC0xOTkyMDE3NDAzXX0=
 -->
