@@ -31,7 +31,15 @@ use_math: true
 | - | ------ |
 | "Zbcdefg" | "gfedcbZ" |
 
+***
 
+## 나의 풀이 <a id='my-solution'></a>
+
+```python
+def solution(s):
+	answer = ''.join(sorted(s, reverse=True))
+	return answer
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTk4MjA4NjJdfQ==
+eyJoaXN0b3J5IjpbLTE5ODc0NTA2ODVdfQ==
 -->
