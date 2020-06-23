@@ -53,10 +53,11 @@ Return a string which is **the concatenation of the strings in _iterable_**. A `
 'Hello world!'
 >>> ' '.join(_list) # ! separator is the str
 'H e l l o   w o r l d !'
-
+>>> '-'.join(_list) # !
+'H-e-l-l-o- -w-o-r-l-d-!'
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDY5OTE4NDUsLTIwMTc4NzMzOSwtNj
-AyMjM5NDM1LC0xOTkyMDE3NDAzXX0=
+eyJoaXN0b3J5IjpbMjAzMDE2NTk5NCwtMjAxNzg3MzM5LC02MD
+IyMzk0MzUsLTE5OTIwMTc0MDNdfQ==
 -->
