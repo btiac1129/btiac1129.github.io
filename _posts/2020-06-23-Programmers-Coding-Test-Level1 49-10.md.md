@@ -10,7 +10,6 @@ use_math: true
 
 * [문자열 내림차순으로 배치하기](#problem-description)
 * [나의 풀이](#my-solution)
-* [다른 사람들의 풀이](#problem-solution)
 * [새로 배운 내용](#deep)
 
 ***
@@ -40,6 +39,12 @@ def solution(s):
 	answer = ''.join(sorted(s, reverse=True))
 	return answer
 ```
+
+***
+
+## 새로 배운 내용 <a id="deep"></a>
+
+### `join`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODc0NTA2ODVdfQ==
+eyJoaXN0b3J5IjpbLTE5OTIwMTc0MDNdfQ==
 -->
