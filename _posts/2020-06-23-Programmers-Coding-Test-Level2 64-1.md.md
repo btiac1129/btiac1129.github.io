@@ -34,10 +34,12 @@ use_math: true
 ### 입출력 예
 
 | progresses | speeds | return |
-| [93, 30, 55] | [1, 30, 5] 
+| [93, 30, 55] | [1, 30, 5] | [2, 1] |
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDIwNzQ3OCw0NTcwNzIzNjIsLTI0MD
-UxNTMyOV19
+eyJoaXN0b3J5IjpbLTEwMTkxOTgwNjUsNDU3MDcyMzYyLC0yND
+A1MTUzMjldfQ==
 -->
