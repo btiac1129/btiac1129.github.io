@@ -51,10 +51,12 @@ Return a string which is **the concatenation of the strings in _iterable_**. A `
 >>> _list = ['H', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', '!']
 >>> ''.join(_list)	# !
 'Hello world!'
+>>> ' '.join(_list) # ! separator is the str
+'H e l l o   w o r l d !'
 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTM2NjI4NywtMjAxNzg3MzM5LC02MD
-IyMzk0MzUsLTE5OTIwMTc0MDNdfQ==
+eyJoaXN0b3J5IjpbLTIxMDY5OTE4NDUsLTIwMTc4NzMzOSwtNj
+AyMjM5NDM1LC0xOTkyMDE3NDAzXX0=
 -->
