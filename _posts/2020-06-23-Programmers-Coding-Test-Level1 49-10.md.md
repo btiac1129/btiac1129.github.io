@@ -45,9 +45,10 @@ def solution(s):
 ## 새로 배운 내용 <a id="deep"></a>
 
 ### `str.join(_iterable_)`
-Return a string which is the concatenation of the strings in _iterable_. A `TypeError` will be raised if there are any non-string values in _iterable_, including `bytes` objects. The separator between elements is the string providing this method.
+Return a string which is **the concatenation of the strings in _iterable_**. A `TypeError` will be raised if there are any non-string values in _iterable_, including `bytes` objects. The separator between elements is the string providing this method.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjIzOTQzNSwtMTk5MjAxNzQwM119
+eyJoaXN0b3J5IjpbLTIwMTc4NzMzOSwtNjAyMjM5NDM1LC0xOT
+kyMDE3NDAzXX0=
 -->
