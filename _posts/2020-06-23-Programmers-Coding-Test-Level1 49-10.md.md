@@ -1,23 +1,28 @@
 ---
 layout: post
 title:  "[코딩 테스트] 프로그래머스 코딩 테스트 연습 level 1. 문자열 내 마음대로 정렬하기"
-date:   2020-06-23 21:50:34 
+date:   2020-06-23 21:33:34 
 categories: Python Coding-test Programmers
 use_math: true
 ---
 
-**_Description_ : 프로그래머스 코딩 테스트 level 1 연습 문제 (9/49)**
+**_Description_ : 프로그래머스 코딩 테스트 level 1 연습 문제 (10/49)**
 
-* [문자열 내 마음대로 정렬하기](#problem-description)
+* [문자열 내림차순으로 배치하기](#problem-description)
 * [나의 풀이](#my-solution)
 * [다른 사람들의 풀이](#problem-solution)
 * [새로 배운 내용](#deep)
 
 ***
 
-## 문자열 내 마음대로 정렬하기 <a id="problem-description"></a>
+## 문자열 내림차순으로 배치하기 <a id="problem-description"></a>
 
+문자열 s에 나타나는 문자를 큰 것부터 작은 순으로 정렬해 새로운 문자열을 리턴하는 함수, solution을 완성해주세요. s는 영문 대소문자로만 구성되어 있으며, 대문자는 소문자보다 작은 것으로 간주합니다.
+
+##### 제한 사항
+
+-   str은 길이 1 이상인 문자열입니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyMDM1OTQ1XX0=
+eyJoaXN0b3J5IjpbMTg2NDg0OTE2MV19
 -->
