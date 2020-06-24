@@ -44,7 +44,7 @@ use_math: true
 def solution(progresses, speeds):
     answer = []
     while progresses:	
-    # ▲ progresses 리스트가 
+    # ▲ 빈 리스트가 아닐 때
         for idx in range(len(progresses)):
             progresses[idx] += speeds[idx]	
             # ▲ 작업 진도가 하루가 지나면서 작업 속도만큼 나감.
@@ -64,7 +64,7 @@ def solution(progresses, speeds):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NDc0NjA2NSwxMjUwNTY2MjgzLDE0ND
+eyJoaXN0b3J5IjpbMTYyMTkzODc1MCwxMjUwNTY2MjgzLDE0ND
 E4NTEyODQsLTEwMTkxOTgwNjUsNDU3MDcyMzYyLC0yNDA1MTUz
 MjldfQ==
 -->
