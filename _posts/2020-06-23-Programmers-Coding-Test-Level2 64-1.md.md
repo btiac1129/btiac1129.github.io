@@ -87,8 +87,13 @@ def solution(progresses, speeds):
     return answer
 ```
 
+▲ 가장 이해가 잘 되면서 가장 명확한 solution 코드이다.
+
+***
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExMDg5ODYwLDEwMTg5NTIwMTcsOTA1OT
-Y3NTgzLDEyNTA1NjYyODMsMTQ0MTg1MTI4NCwtMTAxOTE5ODA2
-NSw0NTcwNzIzNjIsLTI0MDUxNTMyOV19
+eyJoaXN0b3J5IjpbLTQ5MzY1ODYyMywxMDE4OTUyMDE3LDkwNT
+k2NzU4MywxMjUwNTY2MjgzLDE0NDE4NTEyODQsLTEwMTkxOTgw
+NjUsNDU3MDcyMzYyLC0yNDA1MTUzMjldfQ==
 -->
