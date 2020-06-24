@@ -43,10 +43,10 @@ use_math: true
 ```python
 def solution(progresses, speeds):
     answer = []
-    while progresses:	# ▲
+    while progresses:	# ▲1
         for idx in range(len(progresses)):
-            progresses[idx] += speeds[idx]
-        if progresses[0] >= 100:
+            progresses[idx] += speeds[idx]	# ▲2
+        if progresses[0] >= 100:	# 
             temp = 0
             for idx in range(len(progresses)):
                 if progresses[0] >= 100:
@@ -59,6 +59,6 @@ def solution(progresses, speeds):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzk1NjM1ODUsLTEwMTkxOTgwNjUsND
-U3MDcyMzYyLC0yNDA1MTUzMjldfQ==
+eyJoaXN0b3J5IjpbMTQ0MTg1MTI4NCwtMTAxOTE5ODA2NSw0NT
+cwNzIzNjIsLTI0MDUxNTMyOV19
 -->
