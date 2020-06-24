@@ -45,22 +45,24 @@ def solution(progresses, speeds):
     answer = []
     while progresses:	# ▲1
         for idx in range(len(progresses)):
-            progresses[idx] += speeds[idx]	# ▲2
+            progresses[idx] += speeds[idx]	
+            # ▲ 하루가 지나면서 작업 진도가 나감
         if progresses[0] >= 100:	
         # ▲ 맨 앞 기능이 배포될 때
             temp = 0
             for idx in range(len(progresses)):
                 if progresses[0] >= 100:
-	                # ▲ 
+	                # ▲ 진도가 100%인 것 함께 배포 = 연속적으로 delete
                     del progresses[0]
                     del speeds[0]
                     temp += 1
+                    # ▲ 
             answer.append(temp)
     return answer
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM1Nzk2ODA2LDE0NDE4NTEyODQsLTEwMT
+eyJoaXN0b3J5IjpbNTA2MDYzOTM2LDE0NDE4NTEyODQsLTEwMT
 kxOTgwNjUsNDU3MDcyMzYyLC0yNDA1MTUzMjldfQ==
 -->
