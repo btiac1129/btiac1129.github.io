@@ -67,11 +67,48 @@ def solution(progresses, speeds):
 ## 다른 사람들의 풀이 <a id='problem-solution'></a>
 
 ```python 
+  
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
 
+def solution(progresses, speeds):
+    print(progresses)
+    print(speeds)
+    answer = []
+    time = 0
+    count = 0
+    while len(progresses)> 0:
+        if (progresses[0] + time*speeds[0]) >= 100:
+            progresses.pop(0)
+            speeds.pop(0)
+            count += 1
+        else:
+            if count > 0:
+                answer.append(count)
+                count = 0
+            time += 1
+    answer.append(count)
+    return answer
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxODk1MjAxNyw5MDU5Njc1ODMsMTI1MD
-U2NjI4MywxNDQxODUxMjg0LC0xMDE5MTk4MDY1LDQ1NzA3MjM2
-MiwtMjQwNTE1MzI5XX0=
+eyJoaXN0b3J5IjpbLTQxNzEzMjc3LDEwMTg5NTIwMTcsOTA1OT
+Y3NTgzLDEyNTA1NjYyODMsMTQ0MTg1MTI4NCwtMTAxOTE5ODA2
+NSw0NTcwNzIzNjIsLTI0MDUxNTMyOV19
 -->
