@@ -46,7 +46,7 @@ def solution(progresses, speeds):
     while progresses:	# ▲1
         for idx in range(len(progresses)):
             progresses[idx] += speeds[idx]	
-            # ▲ 하루가 지나면서 작업 진도가 나감
+            # ▲ 작업 진도가 하루가 지나면서 작업 속도만큼 나감.
         if progresses[0] >= 100:	
         # ▲ 맨 앞 기능이 배포될 때
             temp = 0
@@ -63,6 +63,6 @@ def solution(progresses, speeds):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA2MDYzOTM2LDE0NDE4NTEyODQsLTEwMT
-kxOTgwNjUsNDU3MDcyMzYyLC0yNDA1MTUzMjldfQ==
+eyJoaXN0b3J5IjpbMTI1MDU2NjI4MywxNDQxODUxMjg0LC0xMD
+E5MTk4MDY1LDQ1NzA3MjM2MiwtMjQwNTE1MzI5XX0=
 -->
