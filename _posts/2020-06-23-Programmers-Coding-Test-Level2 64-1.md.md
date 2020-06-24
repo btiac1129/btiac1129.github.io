@@ -64,10 +64,14 @@ def solution(progresses, speeds):
 
 ***
 
-## 다른 사람들의 풀이 <a id='problem-s
+## 다른 사람들의 풀이 <a id='problem-solution'></a>
+
+```python 
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDUzNzg3NCw5MDU5Njc1ODMsMTI1MD
+eyJoaXN0b3J5IjpbMTAxODk1MjAxNyw5MDU5Njc1ODMsMTI1MD
 U2NjI4MywxNDQxODUxMjg0LC0xMDE5MTk4MDY1LDQ1NzA3MjM2
 MiwtMjQwNTE1MzI5XX0=
 -->
