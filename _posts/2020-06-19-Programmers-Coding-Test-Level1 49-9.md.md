@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[코딩 테스트] 프로그래머스 코딩 테스트 연습 level 1. 문자열 내 마음대로 정렬하기"
-date:   2020-06-19 22:50:34 
+date:   2020-06-3 2157:34 
 categories: Python Coding-test Programmers
 use_math: true
 ---
@@ -113,7 +113,7 @@ def solution(strings, n):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1NDE0OTkxLC03MjgyMjM5OCwxMzEwMT
-Q1OTQsLTc0NjM0MjQyMSwtMzk0MDM1MjAyLDYxNDIxMzUxNiwx
-NjQ0Mjc4NThdfQ==
+eyJoaXN0b3J5IjpbLTEwNTc1MDc2MTgsODU1NDE0OTkxLC03Mj
+gyMjM5OCwxMzEwMTQ1OTQsLTc0NjM0MjQyMSwtMzk0MDM1MjAy
+LDYxNDIxMzUxNiwxNjQ0Mjc4NThdfQ==
 -->
