@@ -95,7 +95,7 @@ def solution(progresses, speeds):
 
 ### 파이썬으로 구현한 스택
 
-스택은 먼저 들어간 항목이 나중에 나오고, 나중에 들어간 항목이 먼저 나오는 LIFO(Last In First Out)로 불린다. 기본 클래스 중 하나인 list를 통해 스택ㅇ
+스택은 먼저 들어간 항목이 나중에 나오고, 나중에 들어간 항목이 먼저 나오는 LIFO(Last In First Out)로 불린다. 기본 클래스 중 하나인 `list`를 통해 스택을 흉내낼 수 있다.
 
 ```python
 >>> stk = []
@@ -112,7 +112,8 @@ def solution(progresses, speeds):
 [1]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyNDIzMzA4LDE5MTUwOTY0ODUsMTAxOD
-k1MjAxNyw5MDU5Njc1ODMsMTI1MDU2NjI4MywxNDQxODUxMjg0
-LC0xMDE5MTk4MDY1LDQ1NzA3MjM2MiwtMjQwNTE1MzI5XX0=
+eyJoaXN0b3J5IjpbLTE3MDUxMzI4MjQsMTkxNTA5NjQ4NSwxMD
+E4OTUyMDE3LDkwNTk2NzU4MywxMjUwNTY2MjgzLDE0NDE4NTEy
+ODQsLTEwMTkxOTgwNjUsNDU3MDcyMzYyLC0yNDA1MTUzMjldfQ
+==
 -->
