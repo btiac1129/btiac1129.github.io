@@ -94,13 +94,25 @@ def solution(progresses, speeds):
 ## 새로 배운 내용 <a id='deep'></a>
 
 ### 파이썬으로 구현한 스택
-```python 
-stk = []
-stk.append(1)
-stk.
+
+
+
+```python
+>>> stk = []
+>>> stk.append(1)
+>>> stk.append(2)
+>>> stk.append(3)
+>>> print(stk)
+[1, 2, 3]
+>>> print(stk.pop())
+3
+>>> print(stk.pop())
+2
+>>> print(stk)
+[1]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTUyMjIxMCwxOTE1MDk2NDg1LDEwMT
+eyJoaXN0b3J5IjpbMTIyNDI3NzE5MywxOTE1MDk2NDg1LDEwMT
 g5NTIwMTcsOTA1OTY3NTgzLDEyNTA1NjYyODMsMTQ0MTg1MTI4
 NCwtMTAxOTE5ODA2NSw0NTcwNzIzNjIsLTI0MDUxNTMyOV19
 -->
