@@ -91,9 +91,14 @@ def solution(progresses, speeds):
 
 ***
 
+## 새로 배운 내용 <a id='deep'></a>
 
+### 파이썬으로 구현한 스택
+```python 
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzY1ODYyMywxMDE4OTUyMDE3LDkwNT
+eyJoaXN0b3J5IjpbMTkxNTA5NjQ4NSwxMDE4OTUyMDE3LDkwNT
 k2NzU4MywxMjUwNTY2MjgzLDE0NDE4NTEyODQsLTEwMTkxOTgw
 NjUsNDU3MDcyMzYyLC0yNDA1MTUzMjldfQ==
 -->
