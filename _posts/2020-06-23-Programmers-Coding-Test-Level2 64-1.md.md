@@ -46,10 +46,12 @@ def solution(progresses, speeds):
     while progresses:	# ▲1
         for idx in range(len(progresses)):
             progresses[idx] += speeds[idx]	# ▲2
-        if progresses[0] >= 100:	# 
+        if progresses[0] >= 100:	
+        # ▲ 맨 앞 기능이 배포될 때
             temp = 0
             for idx in range(len(progresses)):
                 if progresses[0] >= 100:
+	                # ▲ 
                     del progresses[0]
                     del speeds[0]
                     temp += 1
@@ -59,6 +61,6 @@ def solution(progresses, speeds):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MTg1MTI4NCwtMTAxOTE5ODA2NSw0NT
-cwNzIzNjIsLTI0MDUxNTMyOV19
+eyJoaXN0b3J5IjpbNjM1Nzk2ODA2LDE0NDE4NTEyODQsLTEwMT
+kxOTgwNjUsNDU3MDcyMzYyLC0yNDA1MTUzMjldfQ==
 -->
