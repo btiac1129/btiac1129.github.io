@@ -67,26 +67,6 @@ def solution(progresses, speeds):
 ## 다른 사람들의 풀이 <a id='problem-solution'></a>
 
 ```python 
-  
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-
 def solution(progresses, speeds):
     print(progresses)
     print(speeds)
@@ -108,7 +88,7 @@ def solution(progresses, speeds):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzEzMjc3LDEwMTg5NTIwMTcsOTA1OT
+eyJoaXN0b3J5IjpbMzExMDg5ODYwLDEwMTg5NTIwMTcsOTA1OT
 Y3NTgzLDEyNTA1NjYyODMsMTQ0MTg1MTI4NCwtMTAxOTE5ODA2
 NSw0NTcwNzIzNjIsLTI0MDUxNTMyOV19
 -->
