@@ -36,10 +36,29 @@ use_math: true
 | progresses | speeds | return |
 | [93, 30, 55] | [1, 30, 5] | [2, 1] |
 
+***
 
+## 나의 풀이 <a id='my-solution'></a>
+
+```python
+def solution(progresses, speeds):
+    answer = []
+    while progresses:	# ▲
+        for idx in range(len(progresses)):
+            progresses[idx] += speeds[idx]
+        if progresses[0] >= 100:
+            temp = 0
+            for idx in range(len(progresses)):
+                if progresses[0] >= 100:
+                    del progresses[0]
+                    del speeds[0]
+                    temp += 1
+            answer.append(temp)
+    return answer
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTkxOTgwNjUsNDU3MDcyMzYyLC0yND
-A1MTUzMjldfQ==
+eyJoaXN0b3J5IjpbLTIxMzk1NjM1ODUsLTEwMTkxOTgwNjUsND
+U3MDcyMzYyLC0yNDA1MTUzMjldfQ==
 -->
