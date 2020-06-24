@@ -62,10 +62,12 @@ def solution(progresses, speeds):
     return answer
 ```
 
+***
 
+## 다른 사람들의 풀이 <a id='problem-s
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA1OTY3NTgzLDEyNTA1NjYyODMsMTQ0MT
-g1MTI4NCwtMTAxOTE5ODA2NSw0NTcwNzIzNjIsLTI0MDUxNTMy
-OV19
+eyJoaXN0b3J5IjpbMTE1MDUzNzg3NCw5MDU5Njc1ODMsMTI1MD
+U2NjI4MywxNDQxODUxMjg0LC0xMDE5MTk4MDY1LDQ1NzA3MjM2
+MiwtMjQwNTE1MzI5XX0=
 -->
