@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[코딩 테스트] 프로그래머스 코딩 테스트 연습 level 2. 기능 개발"
-date:   2020-06-23 21:57:34 
+date:   2020-06-24 18:20:34 
 categories: Python Coding-test Programmers
 use_math: true
 ---
@@ -112,7 +112,7 @@ def solution(progresses, speeds):
 [1]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDUxMzI4MjQsMTkxNTA5NjQ4NSwxMD
+eyJoaXN0b3J5IjpbLTIxMjQ4ODc0MDUsMTkxNTA5NjQ4NSwxMD
 E4OTUyMDE3LDkwNTk2NzU4MywxMjUwNTY2MjgzLDE0NDE4NTEy
 ODQsLTEwMTkxOTgwNjUsNDU3MDcyMzYyLC0yNDA1MTUzMjldfQ
 ==
