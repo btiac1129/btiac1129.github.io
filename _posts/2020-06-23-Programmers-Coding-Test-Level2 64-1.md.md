@@ -53,18 +53,19 @@ def solution(progresses, speeds):
             temp = 0
             for idx in range(len(progresses)):
                 if progresses[0] >= 100:
-	                # ▲ 진도가 100%인 것 함께 배포 = 연속적으로 delete
+	                # ▲ 진도가 100%인 것 앞쪽부터 함께 배포 = 연속적인 거 delete
                     del progresses[0]
                     del speeds[0]
                     temp += 1
-                    # ▲ 
+                    # ▲ 동시에 배포된 기능 개수 
             answer.append(temp)
     return answer
 ```
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMTkzODc1MCwxMjUwNTY2MjgzLDE0ND
-E4NTEyODQsLTEwMTkxOTgwNjUsNDU3MDcyMzYyLC0yNDA1MTUz
-MjldfQ==
+eyJoaXN0b3J5IjpbLTEwNTA2OTQ3OTMsMTI1MDU2NjI4MywxND
+QxODUxMjg0LC0xMDE5MTk4MDY1LDQ1NzA3MjM2MiwtMjQwNTE1
+MzI5XX0=
 -->
