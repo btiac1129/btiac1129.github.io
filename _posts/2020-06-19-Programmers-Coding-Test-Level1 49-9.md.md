@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[코딩 테스트] 프로그래머스 코딩 테스트 연습 level 1. 문자열 내 마음대로 정렬하기"
-date:   2020-06-3 2157:34 
+date:   2020-06-3 21:57:34 
 categories: Python Coding-test Programmers
 use_math: true
 ---
