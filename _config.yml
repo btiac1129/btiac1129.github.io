@@ -65,8 +65,8 @@ show_excerpts: true
 
 plainwhite:
     navigation:
-      - title: CODING TEST
-        url: "/posts/CodingTest"
+      - title: Coding Test
+        url: "/_posts/CodingTest"
 #     - title: POSTS
 #       url: "/posts"
 #     - title: RESUME
