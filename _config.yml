@@ -55,6 +55,10 @@ plainwhite:
   name: Han so-jeong
   tagline: Developer. Designer
   date_format: "%b %-d, %Y"
+  navigation:
+    - title: Coding Test
+      url: "/python/coding-test"
+  search: true
 
   social_links:
 #    twitter: thelehhman
@@ -63,15 +67,6 @@ plainwhite:
 
 show_excerpts: true
 
-plainwhite:
-    navigation:
-      - title: Coding Test
-        url: "/_posts/CodingTest"
-#     - title: POSTS
-#       url: "/posts"
-#     - title: RESUME
-#       url: "/resume"
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
@@ -79,9 +74,4 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
-plainwhite:
-  tagline: |
-  python. 
-
-  coding-test.
+  
