@@ -9,6 +9,10 @@
   <body>
     <main class="container">
       <section class="about">
+	<div id="search-demo-container">
+          <input type="text" id="search-input" placeholder="search...">
+          <ul id="results-container"></ul>
+        </div>
         <a href="/"><img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}"></a>
         <h2 id="title">
           <a href="/">{{ site.plainwhite.name }}</a>
@@ -108,5 +112,6 @@
 		gtag('config', '{{ site.plainwhite.analytics_id }}');
 	</script>
     {%- endif -%}
+      <script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script> 
   </body>
 </html>
