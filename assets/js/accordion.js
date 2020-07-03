@@ -8,7 +8,7 @@ accordionBtn.forEach(function (el) {
     el.addEventListener('click', toggleAccordion)
 });
 
-function toggleAccordion(el) {
+window.onload = function toggleAccordion(el) {
    var targetList = el.currentTarget.nextElementSibling.classList;
    var targetAccIcon = el.currentTarget.children[0];
    var target = el.currentTarget;
