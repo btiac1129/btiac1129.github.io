@@ -3,6 +3,7 @@ layout: post
 title:  "[코딩 테스트] 프로그래머스 코딩 테스트 연습 level 1. 완주하지 못한 선수"
 date:   2020-05-15 09:14:36 
 categories: Python Coding-test Programmers Hash
+category: [Coding Test Practice]
 use_math: true
 ---
 
