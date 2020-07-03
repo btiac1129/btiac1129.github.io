@@ -83,7 +83,9 @@ class Post(models.Model): # models.Model 이 문법은 파이썬의 상속 문�
 * DB 테이블명은 디폴트로 "앱이름_모델명"으로 지어진다. (ex) blog_post, blog_comment, shop_item, shop_review
 * 커스텀 지정을 하고자 하면, 모델 Meta 클래스의 db_table의 원하는 테이블명을 makemigrations 하기 전에 지정하면 된다. 
 
-### 실습 
+***
+
+### 실습 101
 ```python
 > python manage.py startapp instagram
 ```
