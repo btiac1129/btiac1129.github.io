@@ -56,8 +56,8 @@ plainwhite:
   tagline: Developer. Designer
   date_format: "%b %-d, %Y"
   navigation:
-    - title: Coding Test
-      url: "/python/coding-test"
+    - title: Categories
+      url: /category
   search: true
 
   social_links:
