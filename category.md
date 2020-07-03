@@ -5,8 +5,8 @@ title: Categories
 
 # Categories
 
-* [Django](/category/django/)
+* [Django](/category/django.md)
 * [JavaScript](/category/javascript/)
 * [Algorithm](/category/algorithm/)
-* [Coding Test Practice](/category/coding-test-practice/)
+* [Coding Test Practice](/category/coding-test-practice.md)
 * [etc.](/category/etc/)
