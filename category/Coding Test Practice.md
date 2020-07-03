@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Coding Test Practice
 ---
 
 <ul>
