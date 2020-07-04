@@ -1,4 +1,5 @@
-: post
+---
+layout : post
 title: "[Django] 리액트와 함께 장고 시작하기 Django Models 2. 장고 모델 필드"
 date: 2020-07-04 11:18:36 
 categories: Python Django Models 
