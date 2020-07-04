@@ -98,7 +98,9 @@ class PostAdmin(admin.ModelAdmin):
   # Post 모델에서 만든 함수 message_length 추가! 이렇게 인자 없는 함수만 가능하다.
   # 혹은 파이썬에 @property라는 장식자가 있는데, 이걸 이용해서 함수로 속성을 정의할 수도 있다.
   list_display_links = ['message']  # 여러 개 넣을 수 있다. 
-
+  list_filter = ['created_at', 'is_publish']
+  search_fields = ['message'] 
+  
 
 # Instagram > models.py
 from django.db import models
@@ -108,8 +110,6 @@ class Post(models.Model):
   is_public = models.BooleanField(default=False, verbose_name='공개여부') # 추가 후, 마이그레이션!
   created_at = models.DateTimeField(auto_now_add=True)
   updated_at = models.DateTimeField(auto_now_add)
-  list_filter = ['created_at', 'is_publish']
-  search_fields = ['message'] 
   
   def __str__(self):
     return self.message
