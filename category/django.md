@@ -9,6 +9,7 @@ layout: page
          <ul class="targetList">
              <li><a href="../python/django/models/2020/07/03/Django-Models-AskCompany-14-1.md.html">장고 모델 (ORM) 소개</a></li>
              <li><a href="../python/django/models/2020/07/04/Django-Models-AskCompany-14-2.md.html">장고 모델 필드</a></li>
+             <li><a href="../python/django/models/2020/07/04/Django-Models-AskCompany-14-3.md.html">장고 admin을 통한 데이터 관리 (기초)</a></li>
          </ul>
       </li>
       <li class="item">
