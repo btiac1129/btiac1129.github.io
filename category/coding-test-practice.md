@@ -9,7 +9,7 @@ layout: page
          <ul class="targetList">
              <li><a href="../python/coding-test/programmers/hash/2020/05/15/Programmers-Coding-Test-Level1-49-1.html">완주하지 못한 선수</a></li>
              <li><a href="../python/coding-test/programmers/greedy-algorithm/2020/05/21/Programmers-Coding-Test-Level1-49-2.html">체육복</a></li>
-             <li><a href="../python/coding-test/programmers/brute-force-search/2020/06/13/Programmers-Coding-Test-Level1-49-3.md.html"></a>[완전 탐색/BFC] 모의고사</li>
+             <li><a href="../python/coding-test/programmers/brute-force-search/2020/06/13/Programmers-Coding-Test-Level1-49-3.md.html">[완전 탐색/BFC] 모의고사</a></li>
              <li><a href="../python/coding-test/programmers/sort/2020/06/14/Programmers-Coding-Test-Level1-49-4.md.html">K번째 수</a></li>
              <li><a href="../python/coding-test/programmers/2020/06/16/Programmers-Coding-Test-Level1-49-5.md.html">2016년</a></li>
              <li><a href="../python/coding-test/programmers/2020/06/16/Programmers-Coding-Test-Level1-49-6.md.html">같은 숫자는 싫어</a></li>
