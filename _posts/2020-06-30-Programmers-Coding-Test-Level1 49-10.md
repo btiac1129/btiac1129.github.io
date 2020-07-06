@@ -6,7 +6,7 @@ categories: Python Coding-test Programmers
 use_math: true
 ---
 
-**_Description_ : 프로그래머스 코딩 테스트 level 1 문자열 다루기 기본 (11/49)**
+**_Description_ : 프로그래머스 코딩 테스트 level 1 문자열 다루기 기본 (10/49)**
 
 * [문자열 다루기 기본](#problem-description)
 * [나의 풀이](#my-solution)
