@@ -6,7 +6,7 @@ categories: Python Coding-test Programmers
 use_math: true
 ---
 
-**_Description_ : 프로그래머스 코딩 테스트 level 1 연습 문제 (10/49)**
+**_Description_ : 프로그래머스 코딩 테스트 level 1 연습 문제 (9/49)**
 
 * [문자열 내림차순으로 배치하기](#problem-description)
 * [나의 풀이](#my-solution)
