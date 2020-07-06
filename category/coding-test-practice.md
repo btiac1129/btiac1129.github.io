@@ -14,8 +14,8 @@ layout: page
       <li class="item">
          <h2 class="accordionTitle">프로그래머스 코딩 테스트 연습 Level 2 <span class="accIcon"></span></h2>
          <ul class="targetList">
-             <li><a href="../python/coding-test/programmers/2020/06/24/Programmers-Coding-Test-Level2-64-1.md.html">[스택] 기능 개발</a></li>
-             <li><a href="../python/coding-test/programmers/2020/07/05/Programmers-Coding-Test-Level2-64-2.md.html">[스택] 기능 개발</a></li>
+             <li><a href="../python/coding-test/programmers/2020/06/24/Programmers-Coding-Test-Level2-64-1.md.html">[스택/큐] 기능 개발</a></li>
+             <li><a href="../python/coding-test/programmers/2020/07/05/Programmers-Coding-Test-Level2-64-2.md.html">[스택/큐] 프린터</a></li>
          </ul>
       </li>
    </ul>
