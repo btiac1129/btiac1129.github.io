@@ -122,4 +122,51 @@ def solution(priorities, location):
 
 ### deque
 
-### any()
+`Deque`는 double-ended queue의 줄임말로, 앞과 뒤에서, 즉 양방향에서 데이터를 처리할 수 있는 queue 형 자료구조를 의미한다. 
+
+`python`에서 `collectons.deque`는 `list`와 비슷하다. `list`의 `append(), pop()` 등 메소드를 `deque`에서도 제공한다. 
+
+```python
+>>> from collections import deque
+
+>>> d = deque('ghi')
+>>> for elem in d:
+	print(elem.upper())
+	
+G
+H
+I
+
+>>> d.append('j')
+>>> d.appendleft('f')
+>>> d
+deque(['f', 'g', 'h', 'i', 'j'])
+
+>>> d.pop()
+'j'
+>>> d.popleft()
+'f'
+>>> list(d)
+['g', 'h', 'i']
+>>> list(reversed(d))
+['i', 'h', 'g']
+>>> d.extend('jki')
+>>> d
+deque(['g', 'h', 'i', 'j', 'k', 'l'])
+>>> d.rotate(1)
+>>> d
+deque(['l', 'g', 'h', 'i', 'j', 'k'])
+```
+
+### `any(iterableValue)`
+
+`any(iterableValue)`는 전달 받은 자료형의 element 중 하나라도 True일 경우 True를 돌려준다. (argument로 넘겨준 게 empty 값인 경우, `False`를 돌려준다.)
+
+```python
+# 내부 구현
+def any(iterable):
+    for element in iterable:
+        if element:
+            return True
+    return False
+```
