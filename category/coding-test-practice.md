@@ -16,8 +16,8 @@ layout: page
              <li><a href="../python/coding-test/programmers/2020/06/18/Programmers-Coding-Test-Level1-49-7.md.html">나누어 떨어지는 숫자 배열</a></li>
              <li><a href="../python/coding-test/programmers/2020/06/18/Programmers-Coding-Test-Level1-49-8.md.html">두 정수 사이의 합</a></li>
              <li><a href="../python/coding-test/programmers/2020/06/23/Programmers-Coding-Test-Level1-49-9.md.html">문자열 내 마음대로 정렬하기</a></li>
-             <li><a href="../python/coding-test/programmers/2020/06/30/Programmers-Coding-Test-Level1-49-10.md.html">문자열 다루기 기본</a></li>
-             <li><a href="../python/coding-test/programmers/2020/07/06/Programmers-Coding-Test-Level1-49-11.md.html">서울에서 김서방 찾기</a></li>
+             <li><a href="../python/coding-test/programmers/2020/06/30/Programmers-Coding-Test-Level1-49-10.html">문자열 다루기 기본</a></li>
+             <li><a href="../python/coding-test/programmers/2020/07/06/Programmers-Coding-Test-Level1-49-11.html">서울에서 김서방 찾기</a></li>
          </ul>
       </li>
       <li class="item">
